@@ -1,10 +1,11 @@
-body {background-color: #fff3d1;}
+body {/*background-color: #fff3d1;*/
+background-color: #141414;}
 
 .main-title{
     font-family: 'Brush Script MT', cursive;
     font-size: 25px;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .title-text{
@@ -57,36 +58,26 @@ body {background-color: #fff3d1;}
 
 /* big menu form*/
 .menu-viewer{
-    background-color: #ed9e15;
+    /*background-color: #ed9e15;*/
+    background-color: #141414;
     /*text-align: center;*/
     display:block;
-    border-width:2px;
+    /*border-width:2px;
     border-style:solid;
     /*border-color:black;*/
     margin: 10px;
 }
 
-.title-middle-burger{
+.title-middle{
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
     text-align: center;
     color: black;
 }
 
-.title-middle-caff{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    text-align: center;
-    color: black;
+a,p{
+    color: white;
 }
-
-.title-middle-salad{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    text-align: center;
-    color: black;
-}
-
 .menu-item{  
     display:block;
     margin: 10px;
@@ -103,10 +94,11 @@ body {background-color: #fff3d1;}
 }
 
 #pingridients{
-    text-align: center;
+    text-align: left;
+    margin-top: 2px;
 }
 .contact-bottom{
-    background-color: #ffd561;
+    background-color: #4a4a4a;
     text-align: center;
     position: relative;
     bottom: 0;

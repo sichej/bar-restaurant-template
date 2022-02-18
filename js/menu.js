@@ -67,6 +67,62 @@ var sal = [
     }
 ]
 
+var coc = [
+    {
+        "product":"Aperol Spritz",
+        "price": "9,00",
+    },
+    {
+        "product":"Campari Spritz",
+        "price": "9,00",
+    },
+    {
+        "product":"Ugo Spritz",
+        "price": "9,00",
+    },
+    {
+        "product":"Gin Tonic",
+        "price": "9,00",
+    },
+    {
+        "product":"Gin Lemon",
+        "price": "9,00",
+    },
+    {
+        "product":"Negroni",
+        "price": "9,00",
+    },
+    {
+        "product":"Vodka Lemon",
+        "price": "9,00",
+    },
+    {
+        "product":"Pina Colada",
+        "price": "9,00",
+    },
+    {
+        "product":"Mojito",
+        "price": "9,00",
+    },
+    {
+        "product":"Campari Shakerato",
+        "price": "9,00",
+    },
+    {
+        "product":"Americano",
+        "price": "9,00",
+    },
+    {
+        "product":"Analcolico alla Frutta",
+        "price": "9,00",
+    },
+    {
+        "product":"Long Island",
+        "price": "9,00",
+    }
+]
+
+
 var i = 0;
 var euro = "&#8364 ";
 
@@ -94,5 +150,14 @@ for( i = 0; i < bg.length; i++){
 for( i = 0; i < sal.length; i++){
     console.log(sal[i]);
     var str = `<div class='menu-item'><a id='pname'>${sal[i].product}:</a><a id='pprice'>${euro + sal[i].price}</a><p id='pingridients'>${sal[i].ingridients}</p></div>`;
-    document.getElementById("menu-burger").innerHTML += str;
+    document.getElementById("menu-salad").innerHTML += str;
+}
+
+/*
+* cocktail menu viewer
+*/
+for( i = 0; i < coc.length; i++){
+    console.log(coc[i]);
+    var str = `<div class='menu-item'><a id='pname'>${coc[i].product}:</a><a id='pprice'>${euro + coc[i].price}</a></div>`;
+    document.getElementById("menu-cocktail").innerHTML += str;
 }
