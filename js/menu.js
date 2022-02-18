@@ -75,7 +75,6 @@ var euro = "&#8364 ";
 */
 for( i = 0; i < c.length; i++){
     console.log(c[i]);
-    //var str = `<div class='menu-item'><p id='pprice'><strong id='pname'>${c[i].product}:</strong> ${euro + c[i].price}</p></div>`;
     var str = `<div class='menu-item'><a id='pname'>${c[i].product}:</a><a id='pprice'>${euro + c[i].price}</a></div>`;
     document.getElementById("menu-caff").innerHTML += str;
 }
@@ -85,7 +84,7 @@ for( i = 0; i < c.length; i++){
 */
 for( i = 0; i < bg.length; i++){
     console.log(bg[i]);
-    var str = `<div class='menu-item'><p><strong>${bg[i].product}:</strong> ${euro + bg[i].price}</p><p id='pingridients'>${bg[i].ingridients}</p></div>`;
+    var str = `<div class='menu-item'><a id='pname'>${bg[i].product}:</a><a id='pprice'>${euro + bg[i].price}</a><p id='pingridients'>${bg[i].ingridients}</p></div>`;
     document.getElementById("menu-burger").innerHTML += str;
 }
 
@@ -94,6 +93,6 @@ for( i = 0; i < bg.length; i++){
 */
 for( i = 0; i < sal.length; i++){
     console.log(sal[i]);
-    var str = `<div class='menu-item'><p><strong>${sal[i].product}:</strong> ${euro + sal[i].price}</p><p id='pingridients'>${sal[i].ingridients}</p></div>`;
-    document.getElementById("menu-salad").innerHTML += str;
+    var str = `<div class='menu-item'><a id='pname'>${sal[i].product}:</a><a id='pprice'>${euro + sal[i].price}</a><p id='pingridients'>${sal[i].ingridients}</p></div>`;
+    document.getElementById("menu-burger").innerHTML += str;
 }
