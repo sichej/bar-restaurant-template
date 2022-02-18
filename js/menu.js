@@ -21,11 +21,34 @@ var l = [
     }
 ]
 
+var bg = [
+    {
+        "product":"The Cups",
+        "price": "7,00",
+        "ingridients": "culatta | funghi porcini | burro"
+    },
+    {
+        "product":"Milano",
+        "price": "7,00",
+        "ingridients": "cotoletta | insalata | pomodoro"
+    },
+    {
+        "product":"The Wall",
+        "price": "7,00",
+        "ingridients": "crudo | patate al forno | gorgonzola | salsa di radicchio"
+    },
+    {
+        "product":"Lollo",
+        "price": "7,00",
+        "ingridients": "salame | burro | alici rizzole"
+    }
+]
+
 var i = 0;
-for( i = 0; i < l.length; i++){
-    console.log(l[i]);
-    var str = "<div class='menu-item'>ciao</div>";
-    //document.getElementById("menu").innerHTML += str;
+for( i = 0; i < bg.length; i++){
+    console.log(bg[i]);
+    var str = `<div class='menu-item'><p><strong>${bg[i].product}:</strong> ${bg[i].price}</p><p>${bg[i].ingridients}</p></div>`;
+    document.getElementById("menu-burger").innerHTML += str;
 }
 
 //console.log(l[0].price)
