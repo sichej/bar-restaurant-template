@@ -108,3 +108,7 @@ a,p{
 .cont-bot-text{
     text-align: center;
 }
+
+.marg-low{
+    margin: 4px;
+}

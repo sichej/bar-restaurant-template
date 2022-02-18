@@ -122,6 +122,72 @@ var coc = [
     }
 ]
 
+var beers = [
+    {
+        "product":"Ceres",
+        "price": "3,00",
+    },
+    {
+        "product":"Corona",
+        "price": "3,00",
+    },
+    {
+        "product":"Icnusa non Filtrata",
+        "price": "3,50",
+    },
+    {
+        "product":"Heineken",
+        "price": "3,00",
+    },
+    {
+        "product":"Beck's",
+        "price": "3,00",
+    },
+    {
+        "product":"Artigian art Caffe",
+        "price": "3,50",
+    }
+]
+
+var wine = [
+    {
+        "product":"Prosecco",
+        "price": "20,00",
+        "glass": "4,00"
+    },
+    {
+        "product":"Malvasia",
+        "price": "20,00",
+        "glass": "4,00"
+    },
+    {
+        "product":"Trento DOC",
+        "price": "20,50",
+        "glass": "4,00"
+    },
+    {
+        "product":"Traminer",
+        "price": "20,00",
+        "glass": "4,00"
+    },
+    {
+        "product":"Chardonnay",
+        "price": "20,00",
+        "glass": "4,00"
+    },
+    {
+        "product":"Lambrusco",
+        "price": "20,50",
+        "glass": "4,00"
+    },
+    {
+        "product":"Gutturnio",
+        "price": "20,50",
+        "glass": "4,00"
+    }
+]
+
+
 
 var i = 0;
 var euro = "&#8364 ";
@@ -160,4 +226,22 @@ for( i = 0; i < coc.length; i++){
     console.log(coc[i]);
     var str = `<div class='menu-item'><a id='pname'>${coc[i].product}:</a><a id='pprice'>${euro + coc[i].price}</a></div>`;
     document.getElementById("menu-cocktail").innerHTML += str;
+}
+
+/*
+* beers menu viewer
+*/
+for( i = 0; i < beers.length; i++){
+    console.log(beers[i]);
+    var str = `<div class='menu-item'><a id='pname'>${beers[i].product}:</a><a id='pprice'>${euro + beers[i].price}</a></div>`;
+    document.getElementById("menu-beers").innerHTML += str;
+}
+
+/*
+* wine menu viewer
+*/
+for( i = 0; i < wine.length; i++){
+    console.log(wine[i]);
+    var str = `<div class='menu-item'><a id='pname'>${wine[i].product}:</a><a id='pprice'>${euro + wine[i].price}</a><br><a class='marg-low'>calice</a><a id='pprice'>${euro + wine[i].glass}</a></div>`;
+    document.getElementById("menu-wine").innerHTML += str;
 }
