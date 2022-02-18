@@ -1,0 +1,14 @@
+[
+    {
+        "product":"caffe",
+        "price": "1,20"
+    },
+    {
+        "product":"cappuccino",
+        "price": "1,50"
+    },
+    {
+        "product":"ginseng",
+        "price": "1,80"
+    }
+]

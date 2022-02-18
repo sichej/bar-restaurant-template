@@ -1,0 +1,94 @@
+body {background-color: #fff3d1;}
+
+.main-title{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.title-text{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgbackg{
+    width: 100%; /* max width scaled to the width of tha page adaptive */
+    height: auto;
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.searchbar{
+    text-align: center;
+}
+
+#pname{
+    border: 1px solid #ffcd42;
+    border-radius: 4px;
+}
+
+#lblpaint{
+    font-family: 'Brush Script MT', cursive;
+}
+
+.smallimg{
+    /*text-align: center;*/
+    width: 200px;
+    height: 200px;
+}
+
+#pinfo{
+    font-size: 19px;
+}
+
+.pic{
+    float:left;
+    display:block;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin: 10px;
+    text-align: center;
+}
+
+/* big menu form*/
+.menu-viewer{
+    background-color: #ed9e15;
+    text-align: center;
+    display:block;
+    border-width:2px;
+    border-style:solid;
+    /*border-color:black;*/
+    margin: 10px;
+}
+
+.title-middle-burger{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.menu-item{
+    background-color: green;
+    text-align: center;
+    display:block;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin: 10px;
+}
+.contact-bottom{
+    background-color: #ffd561;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: auto;
+}
+
+.cont-bot-text{
+    text-align: center;
+}
