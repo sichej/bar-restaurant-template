@@ -1,23 +1,23 @@
-var l = [
+var c = [
     {
-        "product":"caffe",
-        "price": "1,20",
+        "product":"Caffe",
+        "price": "1,10",
         "ingridients": ""
     },
     {
-        "product":"cappuccino",
-        "price": "1,50",
+        "product":"Acqua 50cl",
+        "price": "1,00",
         "ingridients": ""
     },
     {
-        "product":"ginseng",
-        "price": "1,80",
+        "product":"Acqua 1L",
+        "price": "2,00",
         "ingridients": ""
     },
     {
-        "product":"sicca",
-        "price": "1,80",
-        "ingridients": "insalata | salame | maionese"
+        "product":"Bibite lattina",
+        "price": "2,50 a 3,00",
+        "ingridients": ""
     }
 ]
 
@@ -45,10 +45,22 @@ var bg = [
 ]
 
 var i = 0;
+
+/*
+* caffeteria menu viewer
+*/
+for( i = 0; i < c.length; i++){
+    console.log(c[i]);
+    var str = `<div class='menu-item'><p><strong>${c[i].product}:</strong> ${c[i].price}</p></div>`;
+    document.getElementById("menu-caff").innerHTML += str;
+}
+
+/*
+* burger menu viewer
+*/
 for( i = 0; i < bg.length; i++){
     console.log(bg[i]);
     var str = `<div class='menu-item'><p><strong>${bg[i].product}:</strong> ${bg[i].price}</p><p>${bg[i].ingridients}</p></div>`;
     document.getElementById("menu-burger").innerHTML += str;
 }
 
-//console.log(l[0].price)
