@@ -44,6 +44,29 @@ var bg = [
     }
 ]
 
+var sal = [
+    {
+        "product":"Miami",
+        "price": "9,00",
+        "ingridients": "insalata | rucola | radicchio | noci | pomodoro | fiocchi di patate alla paprica | salsa greca | pollo impanato"
+    },
+    {
+        "product":"Bombe",
+        "price": "9,00",
+        "ingridients": "insalata | rucola | valeriana | gorgonzola | pere | crudo 24m"
+    },
+    {
+        "product":"Lollino",
+        "price": "9,00",
+        "ingridients": "insalata | radicchio | rucola | pomodoro | mais | tonno | scaglie di parmigiano bufala"
+    },
+    {
+        "product":"Pilu",
+        "price": "9,00",
+        "ingridients": "Insalata | rucola | valeriana | radicchio rosso | noci | zucchine pugliesi | tomino caldo | pomodorini gialli"
+    }
+]
+
 var i = 0;
 
 /*
@@ -64,3 +87,11 @@ for( i = 0; i < bg.length; i++){
     document.getElementById("menu-burger").innerHTML += str;
 }
 
+/*
+* salad menu viewer
+*/
+for( i = 0; i < sal.length; i++){
+    console.log(sal[i]);
+    var str = `<div class='menu-item'><p><strong>${sal[i].product}:</strong> ${sal[i].price}</p><p>${sal[i].ingridients}</p></div>`;
+    document.getElementById("menu-salad").innerHTML += str;
+}
