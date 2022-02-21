@@ -70,27 +70,27 @@ var salad = [
 var cocktail = [
     {
         "product":"Aperol Spritz",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Campari Spritz",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Ugo Spritz",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Gin Tonic",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Gin Lemon",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Negroni",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Vodka Lemon",
@@ -98,54 +98,54 @@ var cocktail = [
     },
     {
         "product":"Pina Colada",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Mojito",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Campari Shakerato",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Americano",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Analcolico alla Frutta",
-        "price": "9,00",
+        "price": "9,00"
     },
     {
         "product":"Long Island",
-        "price": "9,00",
+        "price": "9,00"
     }
 ]
 
 var beers = [
     {
         "product":"Ceres",
-        "price": "3,00",
+        "price": "3,00"
     },
     {
         "product":"Corona",
-        "price": "3,00",
+        "price": "3,00"
     },
     {
         "product":"Icnusa non Filtrata",
-        "price": "3,50",
+        "price": "3,50"
     },
     {
         "product":"Heineken",
-        "price": "3,00",
+        "price": "3,00"
     },
     {
         "product":"Beck's",
-        "price": "3,00",
+        "price": "3,00"
     },
     {
         "product":"Artigian art Caffe",
-        "price": "3,50",
+        "price": "3,50"
     }
 ]
 
@@ -184,6 +184,33 @@ var wine = [
         "product":"Gutturnio",
         "price": "20,50",
         "glass": "4,00"
+    }
+]
+
+var amari = [
+    {
+        "product":"Sambuca",
+        "price": "3,00"
+    },
+    {
+        "product":"Vecchia Romagna",
+        "price": "3,00"
+    },
+    {
+        "product":"Stravecchio",
+        "price": "3,50"
+    },
+    {
+        "product":"Jager",
+        "price": "3,00"
+    },
+    {
+        "product":"Grappa",
+        "price": "3,00"
+    },
+    {
+        "product":"Jack Daniel's",
+        "price": "3,50"
     }
 ]
 
@@ -244,4 +271,13 @@ for( i = 0; i < wine.length; i++){
     console.log(wine[i]);
     var str = `<div class='menu-item'><a id='pname'>${wine[i].product}:</a><a id='pprice'>${euro + wine[i].price}</a><br><a class='marg-low'>calice</a><a id='pprice'>${euro + wine[i].glass}</a></div>`;
     document.getElementById("menu-wine").innerHTML += str;
+}
+
+/*
+* amari menu viewer
+*/
+for( i = 0; i < amari.length; i++){
+    console.log(amari[i]);
+    var str = `<div class='menu-item'><a id='pname'>${amari[i].product}:</a><a id='pprice'>${euro + amari[i].price}</a></div>`;
+    document.getElementById("menu-amari").innerHTML += str;
 }
