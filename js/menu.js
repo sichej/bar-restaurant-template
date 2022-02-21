@@ -1,4 +1,4 @@
-var c = [
+var caff = [
     {
         "product":"Caffe",
         "price": "1,20",
@@ -21,7 +21,7 @@ var c = [
     }
 ]
 
-var bg = [
+var burger = [
     {
         "product":"The Cups",
         "price": "7,00",
@@ -44,7 +44,7 @@ var bg = [
     }
 ]
 
-var sal = [
+var salad = [
     {
         "product":"Miami",
         "price": "9,00",
@@ -67,7 +67,7 @@ var sal = [
     }
 ]
 
-var coc = [
+var cocktail = [
     {
         "product":"Aperol Spritz",
         "price": "9,00",
@@ -195,36 +195,36 @@ var euro = "&#8364 ";
 /*
 * caffeteria menu viewer
 */
-for( i = 0; i < c.length; i++){
-    console.log(c[i]);
-    var str = `<div class='menu-item'><a id='pname'>${c[i].product}:</a><a id='pprice'>${euro + c[i].price}</a></div>`;
+for( i = 0; i < caff.length; i++){
+    console.log(caff[i]);
+    var str = `<div class='menu-item'><a id='pname'>${caff[i].product}:</a><a id='pprice'>${euro + caff[i].price}</a></div>`;
     document.getElementById("menu-caff").innerHTML += str;
 }
 
 /*
 * burger menu viewer
 */
-for( i = 0; i < bg.length; i++){
-    console.log(bg[i]);
-    var str = `<div class='menu-item'><a id='pname'>${bg[i].product}:</a><a id='pprice'>${euro + bg[i].price}</a><p id='pingridients'>${bg[i].ingridients}</p></div>`;
+for( i = 0; i < burger.length; i++){
+    console.log(burger[i]);
+    var str = `<div class='menu-item'><a id='pname'>${burger[i].product}:</a><a id='pprice'>${euro + burger[i].price}</a><p id='pingridients'>${burger[i].ingridients}</p></div>`;
     document.getElementById("menu-burger").innerHTML += str;
 }
 
 /*
 * salad menu viewer
 */
-for( i = 0; i < sal.length; i++){
-    console.log(sal[i]);
-    var str = `<div class='menu-item'><a id='pname'>${sal[i].product}:</a><a id='pprice'>${euro + sal[i].price}</a><p id='pingridients'>${sal[i].ingridients}</p></div>`;
+for( i = 0; i < salad.length; i++){
+    console.log(salad[i]);
+    var str = `<div class='menu-item'><a id='pname'>${salad[i].product}:</a><a id='pprice'>${euro + salad[i].price}</a><p id='pingridients'>${salad[i].ingridients}</p></div>`;
     document.getElementById("menu-salad").innerHTML += str;
 }
 
 /*
 * cocktail menu viewer
 */
-for( i = 0; i < coc.length; i++){
-    console.log(coc[i]);
-    var str = `<div class='menu-item'><a id='pname'>${coc[i].product}:</a><a id='pprice'>${euro + coc[i].price}</a></div>`;
+for( i = 0; i < cocktail.length; i++){
+    console.log(cocktail[i]);
+    var str = `<div class='menu-item'><a id='pname'>${cocktail[i].product}:</a><a id='pprice'>${euro + cocktail[i].price}</a></div>`;
     document.getElementById("menu-cocktail").innerHTML += str;
 }
 
