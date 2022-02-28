@@ -193,7 +193,7 @@ var amari = [
     },
     {
         "product":"Stravecchio",
-        "price": "3,50"
+        "price": "3,00"
     },
     {
         "product":"Jager",
@@ -205,7 +205,7 @@ var amari = [
     },
     {
         "product":"Jack Daniel's",
-        "price": "3,50"
+        "price": "3,00"
     }
 ]
 
