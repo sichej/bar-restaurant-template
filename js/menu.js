@@ -41,6 +41,46 @@ var burger = [
         "product":"Lollo",
         "price": "7,00",
         "ingridients": "salame | burro | alici rizzoli"
+    },
+    {
+        "product":"Pimpa",
+        "price": "7,00",
+        "ingridients": "crudo | insalata | pomodoro | olio evo | scamorza"
+    },
+    {
+        "product":"Ct",
+        "price": "7,00",
+        "ingridients": "spalla cotto | senape in grani | miele | scaglie di parmigiano"
+    },
+    {
+        "product":"Bucefalo",
+        "price": "7,00",
+        "ingridients": "pesto di cavallo | olive | capperi | alici rizzoli | tartara"
+    },
+    {
+        "product":"Spirit",
+        "price": "7,00",
+        "ingridients": "pesto di cavallo | brie | carciofi"
+    },
+    {
+        "product":"Michi",
+        "price": "7,00",
+        "ingridients": "roastbeef | rucola | parmigiano | salsa di cottura"
+    },
+    {
+        "product":"Primavera",
+        "price": "7,00",
+        "ingridients": "cotto | mozzarella | insalata | pomodoro"
+    },
+    {
+        "product":"Valtellina",
+        "price": "7,00",
+        "ingridients": "bresaola | rucola | parmigiano | salsa capricciosa"
+    },
+    {
+        "product":"Vegeta",
+        "price": "7,00",
+        "ingridients": "zucchine grigliate | melanzane grigliate | carciofi | olio evo"
     }
 ]
 
@@ -74,7 +114,7 @@ var salad = [
         "product":"insalata Tomino",
         "price": "8,50",
         "ingridients": "Insalata | rucola | valeriana | radicchio rosso | noci | zucchine pugliesi | tomino caldo | pomodorini gialli"
-    },
+    }
 ]
 
 var cocktail = [
