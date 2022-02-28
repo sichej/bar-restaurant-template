@@ -97,17 +97,17 @@ var piadine = [
     },
     {
         "product":"Saturno",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "bresaola | brie | verdure grigliate"
     },
     {
         "product":"Terra",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "cotto | insalata | fontina | salsa di funghi"
     },
     {
         "product":"Plutone",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "roastbeef | verdure grigliate | salsa di cottura"
     }
 ]
