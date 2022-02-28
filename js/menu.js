@@ -84,6 +84,34 @@ var burger = [
     }
 ]
 
+var piadine = [
+    {
+        "product":"Stellare",
+        "price": "6,00",
+        "ingridients": "crudo di Parma 24m | bufala | rucola"
+    },
+    {
+        "product":"Luna",
+        "price": "6,00",
+        "ingridients": "cotto | brie | salsa di radicchioo"
+    },
+    {
+        "product":"Saturno",
+        "price": "7,00",
+        "ingridients": "bresaola | brie | verdure grigliate"
+    },
+    {
+        "product":"Terra",
+        "price": "7,00",
+        "ingridients": "cotto | insalata | fontina | salsa di funghi"
+    },
+    {
+        "product":"Plutone",
+        "price": "7,00",
+        "ingridients": "roastbeef | verdure grigliate | salsa di cottura"
+    }
+]
+
 var salad = [
     {
         "product":"Miami",
@@ -336,6 +364,15 @@ for( i = 0; i < burger.length; i++){
     console.log(burger[i]);
     var str = `<div class='menu-item'><a id='pname'>${burger[i].product}:</a><a id='pprice'>${euro + burger[i].price}</a><p id='pingridients'>${burger[i].ingridients}</p></div>`;
     document.getElementById("menu-burger").innerHTML += str;
+}
+
+/*
+* piadine menu viewer
+*/
+for( i = 0; i < piadine.length; i++){
+    console.log(piadine[i]);
+    var str = `<div class='menu-item'><a id='pname'>${piadine[i].product}:</a><a id='pprice'>${euro + piadine[i].price}</a><p id='pingridients'>${piadine[i].ingridients}</p></div>`;
+    document.getElementById("menu-piadine").innerHTML += str;
 }
 
 /*
