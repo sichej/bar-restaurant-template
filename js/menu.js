@@ -166,12 +166,7 @@ var wine = [
         "glass": "4,00"
     },
     {
-        "product":"Traminer",
-        "price": "20,00",
-        "glass": "4,00"
-    },
-    {
-        "product":"Chardonnay",
+        "product":"Gewurtztraminer",
         "price": "20,00",
         "glass": "4,00"
     },
@@ -181,7 +176,7 @@ var wine = [
         "glass": "4,00"
     },
     {
-        "product":"Gutturnio",
+        "product":"Rosso Germe",
         "price": "20,50",
         "glass": "4,00"
     }
