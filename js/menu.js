@@ -57,62 +57,62 @@ var dishes = [
 var burger = [
     {
         "product":"The Cups",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "culatta | funghi porcini | burro"
     },
     {
         "product":"Milano",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "cotoletta | insalata | pomodoro"
     },
     {
         "product":"The Wall",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "crudo | patate al forno | gorgonzola | salsa di radicchio"
     },
     {
         "product":"Lollo",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "salame | burro | alici rizzoli"
     },
     {
         "product":"Pimpa",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "crudo | insalata | pomodoro | olio evo | scamorza"
     },
     {
         "product":"Ct",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "spalla cotto | senape in grani | miele | scaglie di parmigiano"
     },
     {
         "product":"Bucefalo",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "pesto di cavallo | olive | capperi | alici rizzoli | tartara"
     },
     {
         "product":"Spirit",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "pesto di cavallo | brie | carciofi"
     },
     {
         "product":"Michi",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "roastbeef | rucola | parmigiano | salsa di cottura"
     },
     {
         "product":"Primavera",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "cotto | mozzarella | insalata | pomodoro"
     },
     {
         "product":"Valtellina",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "bresaola | rucola | parmigiano | salsa capricciosa"
     },
     {
         "product":"Vegeta",
-        "price": "7,00",
+        "price": "6,00",
         "ingridients": "zucchine grigliate | melanzane grigliate | carciofi | olio evo"
     }
 ]
@@ -126,7 +126,7 @@ var piadine = [
     {
         "product":"Luna",
         "price": "6,00",
-        "ingridients": "cotto | brie | salsa di radicchioo"
+        "ingridients": "cotto | brie | salsa di radicchio"
     },
     {
         "product":"Saturno",
@@ -188,7 +188,7 @@ var cocktail = [
         "price": "9,00"
     },
     {
-        "product":"Ugo Spritz",
+        "product":"Hugo Spritz",
         "price": "9,00"
     },
     {
@@ -216,10 +216,6 @@ var cocktail = [
         "price": "9,00"
     },
     {
-        "product":"Campari Shakerato",
-        "price": "9,00"
-    },
-    {
         "product":"Americano",
         "price": "9,00"
     },
@@ -236,15 +232,15 @@ var cocktail = [
 var beers = [
     {
         "product":"Ceres",
-        "price": "3,00"
+        "price": "4,00"
     },
     {
         "product":"Corona",
-        "price": "3,00"
+        "price": "3,50"
     },
     {
         "product":"Ichnusa non Filtrata",
-        "price": "3,50"
+        "price": "3,00"
     },
     {
         "product":"Heineken",
@@ -256,7 +252,7 @@ var beers = [
     },
     {
         "product":"Artigian art Caffe",
-        "price": "3,50"
+        "price": "4,00"
     }
 ]
 
@@ -274,7 +270,7 @@ var wine = [
     {
         "product":"Trento DOC",
         "price": "20,50",
-        "glass": "4,00"
+        "glass": "6,00"
     },
     {
         "product":"Gewurtztraminer",
@@ -327,7 +323,7 @@ var amari = [
         "price": "3,00"
     },
     {
-        "product":"Grappa",
+        "product":"Grappa bianca",
         "price": "3,00"
     },
     {
@@ -355,7 +351,7 @@ var amari = [
         "price": "3,00"
     },
     {
-        "product":"Punch Mand",
+        "product":"Punch Mandarino",
         "price": "3,00"
     },
     {
