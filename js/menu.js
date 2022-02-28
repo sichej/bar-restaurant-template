@@ -21,6 +21,39 @@ var caff = [
     }
 ]
 
+var dishes = [
+    {
+        "product":"Mistico",
+        "price": "9,00",
+        "ingridients": "roastbeef | grana a scaglie| rucola"
+    },
+    {
+        "product":"Equino",
+        "price": "9,00",
+        "ingridients": "pesto di cavallo crudo o scottato | contorno a scelta"
+    },
+    {
+        "product":"Cisa",
+        "price": "9,00",
+        "ingridients": "cotoletta milanese | contorno a scelta"
+    },
+    {
+        "product":"The Cups",
+        "price": "9,00",
+        "ingridients": "crudo 24m | pomodoro pachini | mozzarella di bufala"
+    },
+    {
+        "product":"Mare e Monti",
+        "price": "9,00",
+        "ingridients": "rizzoli | mix di verdure miste | fesa di tacchino"
+    },
+    {
+        "product":"Piatto Mediterraneo",
+        "price": "9,00",
+        "ingridients": "burratina in salsa con crosta di pane"
+    }
+]
+
 var burger = [
     {
         "product":"The Cups",
@@ -355,6 +388,15 @@ for( i = 0; i < caff.length; i++){
     console.log(caff[i]);
     var str = `<div class='menu-item'><a id='pname'>${caff[i].product}:</a><a id='pprice'>${euro + caff[i].price}</a></div>`;
     document.getElementById("menu-caff").innerHTML += str;
+}
+
+/*
+* dishes menu viewer
+*/
+for( i = 0; i < dishes.length; i++){
+    console.log(dishes[i]);
+    var str = `<div class='menu-item'><a id='pname'>${dishes[i].product}:</a><a id='pprice'>${euro + dishes[i].price}</a><p id='pingridients'>${dishes[i].ingridients}</p></div>`;
+    document.getElementById("menu-burger").innerHTML += str;
 }
 
 /*
