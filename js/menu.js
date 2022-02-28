@@ -40,7 +40,7 @@ var burger = [
     {
         "product":"Lollo",
         "price": "7,00",
-        "ingridients": "salame | burro | alici rizzole"
+        "ingridients": "salame | burro | alici rizzoli"
     }
 ]
 
@@ -58,13 +58,23 @@ var salad = [
     {
         "product":"Lollino",
         "price": "9,00",
-        "ingridients": "insalata | radicchio | rucola | pomodoro | mais | tonno | scaglie di parmigiano bufala"
+        "ingridients": "insalata | radicchio | rucola | pomodoro | mais | tonno | scaglie di parmigiano | bufala"
     },
     {
         "product":"Pilu",
         "price": "9,00",
+        "ingridients": "Insalata | radicchio | mozzarella | carciofi | cotto | pomodorini"
+    },
+    {
+        "product":"Veggy",
+        "price": "8,50",
+        "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea | funghi porcini"
+    },
+    {
+        "product":"insalata Tomino",
+        "price": "8,50",
         "ingridients": "Insalata | rucola | valeriana | radicchio rosso | noci | zucchine pugliesi | tomino caldo | pomodorini gialli"
-    }
+    },
 ]
 
 var cocktail = [
@@ -132,7 +142,7 @@ var beers = [
         "price": "3,00"
     },
     {
-        "product":"Icnusa non Filtrata",
+        "product":"Ichnusa non Filtrata",
         "price": "3,50"
     },
     {
@@ -158,7 +168,7 @@ var wine = [
     {
         "product":"Malvasia",
         "price": "20,00",
-        "glass": "4,00"
+        "glass": "2,50"
     },
     {
         "product":"Trento DOC",
@@ -173,16 +183,32 @@ var wine = [
     {
         "product":"Lambrusco",
         "price": "20,50",
-        "glass": "4,00"
+        "glass": "2,50"
     },
     {
-        "product":"Rosso Germe",
+        "product":"Rosso fermo",
         "price": "20,50",
         "glass": "4,00"
     }
 ]
 
 var amari = [
+    {
+        "product":"Nocino",
+        "price": "3,00"
+    },
+    {
+        "product":"Mirto",
+        "price": "3,00"
+    },
+    {
+        "product":"Bargnolino",
+        "price": "3,00"
+    },
+    {
+        "product":"Limoncino",
+        "price": "3,00"
+    },
     {
         "product":"Sambuca",
         "price": "3,00"
@@ -204,7 +230,47 @@ var amari = [
         "price": "3,00"
     },
     {
+        "product":"Grappa Barricata",
+        "price": "3,00"
+    },
+    {
         "product":"Jack Daniel's",
+        "price": "3,00"
+    },
+    {
+        "product":"Averna",
+        "price": "3,00"
+    },
+    {
+        "product":"Fernet Branca",
+        "price": "3,00"
+    },
+    {
+        "product":"Branca Menta",
+        "price": "3,00"
+    },
+    {
+        "product":"Montenegro",
+        "price": "3,00"
+    },
+    {
+        "product":"Punch Mand",
+        "price": "3,00"
+    },
+    {
+        "product":"Punch Arancia",
+        "price": "3,00"
+    },
+    {
+        "product":"Baileys",
+        "price": "3,00"
+    },
+    {
+        "product":"Rum",
+        "price": "3,00"
+    },
+    {
+        "product":"Kahlua",
         "price": "3,00"
     }
 ]
