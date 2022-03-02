@@ -191,7 +191,7 @@ var salad = [
     }
 ]
 
-var beers = [
+var bottleBeers = [
     {
         "product":"Ceres",
         "price": "4,00"
@@ -215,6 +215,19 @@ var beers = [
     {
         "product":"Artigian art Caffe",
         "price": "4,00"
+    }
+]
+
+var beers = [
+    {
+        "product":"Forst Kronen chiara",
+        "small": "3,00",
+        "medium": "4,00"
+    },
+    {
+        "product":"Forst Sixtus rossa",
+        "small": "3,00",
+        "medium": "4,00"
     }
 ]
 
@@ -501,11 +514,20 @@ for( i = 0; i < cocktail.length; i++){
 }
 
 /*
+* bottleBeers menu viewer
+*/
+for( i = 0; i < bottleBeers.length; i++){
+    //console.log(beers[i]);
+    var str = `<div class='menu-item'><a id='pname'>${bottleBeers[i].product}:</a><a id='pprice'>${euro + bottleBeers[i].price}</a></div>`;
+    document.getElementById("menu-bottleBeers").innerHTML += str;
+}
+
+/*
 * beers menu viewer
 */
 for( i = 0; i < beers.length; i++){
     //console.log(beers[i]);
-    var str = `<div class='menu-item'><a id='pname'>${beers[i].product}:</a><a id='pprice'>${euro + beers[i].price}</a></div>`;
+    var str = `<div class='menu-item'><a id='pname'>${beers[i].product}:</a><br><a class='marg-low'>0.2</a><a id='pprice'>${euro + beers[i].small}</a><br><a class='marg-low'>0.4</a><a id='pprice'>${euro + beers[i].medium}</a></div>`;
     document.getElementById("menu-beers").innerHTML += str;
 }
 
