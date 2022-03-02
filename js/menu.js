@@ -170,27 +170,22 @@ var salad = [
         "ingridients": "insalata | rucola | radicchio | noci | pomodoro | fiocchi di patate alla paprica | salsa greca | pollo impanato"
     },
     {
-        "product":"Bombe",
-        "price": "9,00",
-        "ingridients": "insalata | rucola | valeriana | gorgonzola | pere | crudo 24m"
-    },
-    {
-        "product":"Lollino",
+        "product":"Rio",
         "price": "9,00",
         "ingridients": "insalata | radicchio | rucola | pomodoro | mais | tonno | scaglie di parmigiano | bufala"
     },
     {
-        "product":"Pilu",
+        "product":"Valencia",
         "price": "9,00",
         "ingridients": "Insalata | radicchio | mozzarella | carciofi | cotto | pomodorini"
     },
     {
-        "product":"Veggy",
+        "product":"Hawai",
         "price": "8,50",
         "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea | funghi porcini"
     },
     {
-        "product":"insalata Tomino",
+        "product":"Lisbona",
         "price": "8,50",
         "ingridients": "Insalata | rucola | valeriana | radicchio rosso | noci | zucchine pugliesi | tomino caldo | pomodorini gialli"
     }
