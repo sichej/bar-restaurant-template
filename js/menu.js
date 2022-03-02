@@ -1,36 +1,90 @@
 var caff = [
     {
         "product":"Caffe",
-        "price": "1,20",
-        "ingridients": ""
+        "price": "1,20"
     },
     {
-        "product":"Acqua 50cl",
-        "price": "1,00",
-        "ingridients": ""
+        "product":"Caffe macchiato soia",
+        "price": "1,00"
     },
     {
-        "product":"Acqua 1L",
-        "price": "2,00",
-        "ingridients": ""
+        "product":"Cappuccino",
+        "price": "2,00"
     },
     {
-        "product":"Bibite lattina",
-        "price": "2,50 a 3,00",
-        "ingridients": ""
+        "product":"Cappuccino soia",
+        "price": "2,50 a 3,00"
+    },
+    {
+        "product":"Caffe deca",
+        "price": "2,00"
+    },
+    {
+        "product":"Cioccolata calda",
+        "price": "2,00"
+    },
+    {
+        "product":"Cioccolata con Panna",
+        "price": "2,00"
+    },
+    {
+        "product":"Caffe Americano",
+        "price": "2,00"
+    },
+    {
+        "product":"Latte macchiato",
+        "price": "2,00"
+    },
+    {
+        "product":"Caffe corretto",
+        "price": "2,00"
+    },
+    {
+        "product":"Caffe doppio",
+        "price": "2,00"
+    },
+    {
+        "product":"Caffe con panna",
+        "price": "2,00"
+    },
+    {
+        "product":"Caffe shakerato",
+        "price": "2,00"
+    },
+    {
+        "product":"Crema Caffe (estiva)",
+        "price": "2,00"
+    },
+    {
+        "product":"Latte bianco",
+        "price": "2,00"
+    },
+    {
+        "product":"Schiumetta latte",
+        "price": "2,00"
+    },
+    {
+        "product":"Marocchino",
+        "price": "2,00"
+    },
+    {
+        "product":"Macchiatone",
+        "price": "2,00"
+    },
+    {
+        "product":"Brioches",
+        "price": "2,00"
     }
 ]
 
 var beverage = [
     {
         "product":"Caffe",
-        "price": "1,20",
-        "ingridients": ""
+        "price": "1,20"
     },
     {
         "product":"Acqua 50cl",
-        "price": "1,00",
-        "ingridients": ""
+        "price": "1,00"
     },
     {
         "product":"Acqua 1L",
@@ -39,8 +93,7 @@ var beverage = [
     },
     {
         "product":"Bibite lattina",
-        "price": "2,50 a 3,00",
-        "ingridients": ""
+        "price": "2,50 a 3,00"
     }
 ]
 
