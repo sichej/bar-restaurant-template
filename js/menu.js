@@ -109,62 +109,57 @@ var burger = [
 
 var piadine = [
     {
-        "product":"Stellare",
-        "price": "6,00",
-        "ingridients": "crudo di Parma 24m | bufala | rucola"
+        "product":"Italia",
+        "price": "6,50",
+        "ingridients": "crudo | bufala | rucola"
     },
     {
-        "product":"Luna",
-        "price": "6,00",
+        "product":"Francia",
+        "price": "6,50",
         "ingridients": "cotto | brie | salsa di radicchio"
     },
     {
-        "product":"Saturno",
-        "price": "6,00",
-        "ingridients": "bresaola | brie | verdure grigliate"
+        "product":"USA",
+        "price": "6,50",
+        "ingridients": "bresaola | verdure grigliate"
     },
     {
-        "product":"Terra",
-        "price": "6,00",
+        "product":"Olanda",
+        "price": "6,50",
         "ingridients": "cotto | insalata | fontina | salsa di funghi"
-    },
-    {
-        "product":"Plutone",
-        "price": "6,00",
-        "ingridients": "roastbeef | verdure grigliate | salsa di cottura"
     }
 ]
 
 var dishes = [
     {
-        "product":"Mistico",
+        "product":"Nairobi",
         "price": "9,00",
         "ingridients": "roastbeef | grana a scaglie| rucola"
     },
     {
-        "product":"Equino",
+        "product":"Londra",
         "price": "9,00",
         "ingridients": "pesto di cavallo crudo o scottato | contorno a scelta"
     },
     {
-        "product":"Cisa",
+        "product":"Madrid",
         "price": "9,00",
         "ingridients": "cotoletta milanese | contorno a scelta"
     },
     {
-        "product":"The Cups",
+        "product":"Toronto",
         "price": "9,00",
-        "ingridients": "crudo 24m | pomodoro pachini | mozzarella di bufala"
+        "ingridients": "crudo | pomodoro pachini | mozzarella di bufala"
     },
     {
-        "product":"Mare e Monti",
+        "product":"Santiago",
         "price": "9,00",
-        "ingridients": "rizzoli | mix di verdure miste | fesa di tacchino"
+        "ingridients": "fesa di tacchino | rizzoli | mix di verdure miste"
     },
     {
-        "product":"Piatto Mediterraneo",
+        "product":"Ginevra",
         "price": "9,00",
-        "ingridients": "burratina in salsa con crosta di pane"
+        "ingridients": "fesa di tacchino | patate al forno | rucola | glassa di aceto balsamico"
     }
 ]
 
@@ -303,11 +298,15 @@ var cocktail = [
         "price": "9,00"
     },
     {
-        "product":"Analcolico alla Frutta",
+        "product":"Coca Montenegro",
         "price": "9,00"
     },
     {
-        "product":"Long Island",
+        "product":"Coca Malibu",
+        "price": "9,00"
+    },
+    {
+        "product":"Sex on the Beach",
         "price": "9,00"
     }
 ]
@@ -315,7 +314,8 @@ var cocktail = [
 var cocktailAna = [
     {
         "product":"Aperol Spritz",
-        "price": "9,00"
+        "price": "9,00",
+        "ingridients":"Gin analcolico"
     },
     {
         "product":"Campari Spritz",
