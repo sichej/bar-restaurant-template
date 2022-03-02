@@ -21,36 +21,26 @@ var caff = [
     }
 ]
 
-var dishes = [
+var beverage = [
     {
-        "product":"Mistico",
-        "price": "9,00",
-        "ingridients": "roastbeef | grana a scaglie| rucola"
+        "product":"Caffe",
+        "price": "1,20",
+        "ingridients": ""
     },
     {
-        "product":"Equino",
-        "price": "9,00",
-        "ingridients": "pesto di cavallo crudo o scottato | contorno a scelta"
+        "product":"Acqua 50cl",
+        "price": "1,00",
+        "ingridients": ""
     },
     {
-        "product":"Cisa",
-        "price": "9,00",
-        "ingridients": "cotoletta milanese | contorno a scelta"
+        "product":"Acqua 1L",
+        "price": "2,00",
+        "ingridients": ""
     },
     {
-        "product":"The Cups",
-        "price": "9,00",
-        "ingridients": "crudo 24m | pomodoro pachini | mozzarella di bufala"
-    },
-    {
-        "product":"Mare e Monti",
-        "price": "9,00",
-        "ingridients": "rizzoli | mix di verdure miste | fesa di tacchino"
-    },
-    {
-        "product":"Piatto Mediterraneo",
-        "price": "9,00",
-        "ingridients": "burratina in salsa con crosta di pane"
+        "product":"Bibite lattina",
+        "price": "2,50 a 3,00",
+        "ingridients": ""
     }
 ]
 
@@ -145,6 +135,39 @@ var piadine = [
     }
 ]
 
+var dishes = [
+    {
+        "product":"Mistico",
+        "price": "9,00",
+        "ingridients": "roastbeef | grana a scaglie| rucola"
+    },
+    {
+        "product":"Equino",
+        "price": "9,00",
+        "ingridients": "pesto di cavallo crudo o scottato | contorno a scelta"
+    },
+    {
+        "product":"Cisa",
+        "price": "9,00",
+        "ingridients": "cotoletta milanese | contorno a scelta"
+    },
+    {
+        "product":"The Cups",
+        "price": "9,00",
+        "ingridients": "crudo 24m | pomodoro pachini | mozzarella di bufala"
+    },
+    {
+        "product":"Mare e Monti",
+        "price": "9,00",
+        "ingridients": "rizzoli | mix di verdure miste | fesa di tacchino"
+    },
+    {
+        "product":"Piatto Mediterraneo",
+        "price": "9,00",
+        "ingridients": "burratina in salsa con crosta di pane"
+    }
+]
+
 var salad = [
     {
         "product":"Miami",
@@ -175,57 +198,6 @@ var salad = [
         "product":"insalata Tomino",
         "price": "8,50",
         "ingridients": "Insalata | rucola | valeriana | radicchio rosso | noci | zucchine pugliesi | tomino caldo | pomodorini gialli"
-    }
-]
-
-var cocktail = [
-    {
-        "product":"Aperol Spritz",
-        "price": "9,00"
-    },
-    {
-        "product":"Campari Spritz",
-        "price": "9,00"
-    },
-    {
-        "product":"Hugo Spritz",
-        "price": "9,00"
-    },
-    {
-        "product":"Gin Tonic",
-        "price": "9,00"
-    },
-    {
-        "product":"Gin Lemon",
-        "price": "9,00"
-    },
-    {
-        "product":"Negroni",
-        "price": "9,00"
-    },
-    {
-        "product":"Vodka Lemon",
-        "price": "9,00",
-    },
-    {
-        "product":"Pina Colada",
-        "price": "9,00"
-    },
-    {
-        "product":"Mojito",
-        "price": "9,00"
-    },
-    {
-        "product":"Americano",
-        "price": "9,00"
-    },
-    {
-        "product":"Analcolico alla Frutta",
-        "price": "9,00"
-    },
-    {
-        "product":"Long Island",
-        "price": "9,00"
     }
 ]
 
@@ -286,6 +258,108 @@ var wine = [
         "product":"Rosso fermo",
         "price": "20,50",
         "glass": "4,00"
+    }
+]
+
+var cocktail = [
+    {
+        "product":"Aperol Spritz",
+        "price": "9,00"
+    },
+    {
+        "product":"Campari Spritz",
+        "price": "9,00"
+    },
+    {
+        "product":"Hugo Spritz",
+        "price": "9,00"
+    },
+    {
+        "product":"Gin Tonic",
+        "price": "9,00"
+    },
+    {
+        "product":"Gin Lemon",
+        "price": "9,00"
+    },
+    {
+        "product":"Negroni",
+        "price": "9,00"
+    },
+    {
+        "product":"Vodka Lemon",
+        "price": "9,00",
+    },
+    {
+        "product":"Pina Colada",
+        "price": "9,00"
+    },
+    {
+        "product":"Mojito",
+        "price": "9,00"
+    },
+    {
+        "product":"Americano",
+        "price": "9,00"
+    },
+    {
+        "product":"Analcolico alla Frutta",
+        "price": "9,00"
+    },
+    {
+        "product":"Long Island",
+        "price": "9,00"
+    }
+]
+
+var cocktailAna = [
+    {
+        "product":"Aperol Spritz",
+        "price": "9,00"
+    },
+    {
+        "product":"Campari Spritz",
+        "price": "9,00"
+    },
+    {
+        "product":"Hugo Spritz",
+        "price": "9,00"
+    },
+    {
+        "product":"Gin Tonic",
+        "price": "9,00"
+    },
+    {
+        "product":"Gin Lemon",
+        "price": "9,00"
+    },
+    {
+        "product":"Negroni",
+        "price": "9,00"
+    },
+    {
+        "product":"Vodka Lemon",
+        "price": "9,00",
+    },
+    {
+        "product":"Pina Colada",
+        "price": "9,00"
+    },
+    {
+        "product":"Mojito",
+        "price": "9,00"
+    },
+    {
+        "product":"Americano",
+        "price": "9,00"
+    },
+    {
+        "product":"Analcolico alla Frutta",
+        "price": "9,00"
+    },
+    {
+        "product":"Long Island",
+        "price": "9,00"
     }
 ]
 
