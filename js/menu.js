@@ -628,7 +628,6 @@ var cocktailAna = [
         "price": "6,00",
         "ingridients":"succo d'ananas | succo d'arancia | succo alla pesca | menta"
     }
-    
 ]
 
 var amari = [
@@ -807,6 +806,15 @@ for( i = 0; i < cocktail.length; i++){
     //console.log(cocktail[i]);
     var str = `<div class='menu-item'><a id='pname'>${cocktail[i].product}:</a><a id='pprice'>${euro + cocktail[i].price}</a></div>`;
     document.getElementById("menu-cocktail").innerHTML += str;
+}
+
+/*
+* cocktailAna menu viewer
+*/
+for( i = 0; i < cocktailAna.length; i++){
+    //console.log(cocktail[i]);
+    var str = `<div class='menu-item'><a id='pname'>${cocktailAna[i].product}:</a><a id='pprice'>${euro + cocktailAna[i].price}</a></div>`;
+    document.getElementById("menu-cocktailAna").innerHTML += str;
 }
 
 /*
