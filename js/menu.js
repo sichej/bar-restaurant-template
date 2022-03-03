@@ -143,7 +143,19 @@ var saltyBreakfast = [
         "price": "1,20"
     },
     {
-        "product":"",
+        "product":"Pizzetta",
+        "price": "1,20"
+    },
+    {
+        "product":"Focaccina normale (cotto, crudo, salame)",
+        "price": "1,20"
+    },
+    {
+        "product":"Focaccina alla curcuma (cotto, crudo, salame)",
+        "price": "1,20"
+    },
+    {
+        "product":"Focaccina alla farina id ceci (cotto, crudo, salame)",
         "price": "1,20"
     },
 ]
