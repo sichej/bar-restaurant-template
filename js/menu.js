@@ -464,12 +464,12 @@ var salad = [
     },
     {
         "product":"Hawai",
-        "price": "8,50",
+        "price": "9,00",
         "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea | funghi porcini"
     },
     {
         "product":"Lisbona",
-        "price": "8,50",
+        "price": "9,00",
         "ingridients": "Insalata | rucola | valeriana | radicchio rosso | noci | zucchine pugliesi | tomino caldo | pomodorini gialli"
     }
 ]
