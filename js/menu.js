@@ -222,7 +222,7 @@ var beverage = [
         "price": "2,50"
     },
     {
-        "product":"Estathe zero brick limone",
+        "product":"Estathe zero limone",
         "price": "2,50"
     },
     {
