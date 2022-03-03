@@ -206,21 +206,88 @@ var specCof = [
 
 var beverage = [
     {
-        "product":"Caffe",
+        "product":"Acqua 50cl",
         "price": "1,20"
     },
     {
-        "product":"Acqua 50cl",
+        "product":"Acqua 1L",
         "price": "1,00"
     },
     {
-        "product":"Acqua 1L",
-        "price": "2,00",
-        "ingridients": ""
+        "product":"Spremuta arancia/pompelmo rosa",
+        "price": "2,00"
     },
     {
-        "product":"Bibite lattina",
-        "price": "2,50 a 3,00"
+        "product":"Estathe brick pesca/limone",
+        "price": "2,50"
+    },
+    {
+        "product":"Estathe zero brick limone",
+        "price": "2,50"
+    },
+    {
+        "product":"Estathe deteinato limone",
+        "price": "2,50"
+    },
+    {
+        "product":"Estathe lattina pesca/limone",
+        "price": "2,50"
+    },
+    {
+        "product":"The in bottiglia pesca/limone",
+        "price": "2,50"
+    },
+    {
+        "product":"CocaCola",
+        "price": "2,50"
+    },
+    {
+        "product":"Cocacola zero",
+        "price": "2,50"
+    },
+    {
+        "product":"Fanta",
+        "price": "2,50"
+    },
+    {
+        "product":"Sprite",
+        "price": "2,50"
+    },
+    {
+        "product":"Lemon Soda",
+        "price": "2,50"
+    },
+    {
+        "product":"Acqua Tonica",
+        "price": "2,50"
+    },
+    {
+        "product":"Ginger Beer",
+        "price": "2,50"
+    },
+    {
+        "product":"Chinotto",
+        "price": "2,50"
+    },
+    {
+        "product":"RedBull",
+        "price": "2,50"
+    },
+    {
+        "product":"Crodino",
+        "price": "2,50"
+    },
+    {
+        "product":"Sanbitter rosso",
+        "price": "2,50"
+    },
+    {
+        "product":"Camparisoda",
+        "price": "2,50"
+    },
+    {
+        "product":"Credrata Tassoni",
+        "price": "2,50"
     }
 ]
 
@@ -664,6 +731,15 @@ for( i = 0; i < specCof.length; i++){
     //console.log(caff[i]);
     var str = `<div class='menu-item'><a id='pname'>${specCof[i].product}:</a><a id='pprice'>${euro + specCof[i].price}</a><p id='pingridients'>${specCof[i].ingridients}</p></div>`;
     document.getElementById("menu-specCof").innerHTML += str;
+}
+
+/*
+* beverage menu viewer
+*/
+for( i = 0; i < beverage.length; i++){
+    //console.log(caff[i]);
+    var str = `<div class='menu-item'><a id='pname'>${beverage[i].product}:</a><a id='pprice'>${euro + beverage[i].price}</a></div>`;
+    document.getElementById("menu-beverage").innerHTML += str;
 }
 
 /*
