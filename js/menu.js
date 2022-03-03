@@ -108,11 +108,11 @@ var caff = [
         "price": "2,00"
     },
     {
-        "product":"Tea caldo limone",
+        "product":"Tea caldo al limone",
         "price": "2,00"
     },
     {
-        "product":"Tea caldo frutti rossi",
+        "product":"Tea caldo ai frutti rossi",
         "price": "2,00"
     },
     {
