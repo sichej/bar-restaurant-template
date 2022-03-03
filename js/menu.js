@@ -100,6 +100,30 @@ var caff = [
         "price": "2,00"
     },
     {
+        "product":"Tea caldo classico",
+        "price": "2,00"
+    },
+    {
+        "product":"Tea caldo verde",
+        "price": "2,00"
+    },
+    {
+        "product":"Tea caldo limone",
+        "price": "2,00"
+    },
+    {
+        "product":"Tea caldo frutti rossi",
+        "price": "2,00"
+    },
+    {
+        "product":"Tea caldo deteinato al limone",
+        "price": "2,00"
+    },
+    {
+        "product":"Camomilla",
+        "price": "2,00"
+    },
+    {
         "product":"Brioches",
         "price": "2,00"
     }
