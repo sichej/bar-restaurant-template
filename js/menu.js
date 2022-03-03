@@ -36,6 +36,14 @@ var caff = [
         "price": "2,00"
     },
     {
+        "product":"Ginseng/orzo piccolo",
+        "price": "2,00"
+    },
+    {
+        "product":"Ginseng/orzo grande",
+        "price": "2,00"
+    },
+    {
         "product":"Macchiatone",
         "price": "2,00"
     },
@@ -46,6 +54,10 @@ var caff = [
     {
         "product":"Cappuccino soia",
         "price": "2,50 a 3,00"
+    },
+    {
+        "product":"Cappuccino al Ginseng/orzo",
+        "price": "2,00"
     },
     {
         "product":"Cioccolata calda",
@@ -68,15 +80,23 @@ var caff = [
         "price": "2,00"
     },
     {
-        "product":"Crema Caffe (estiva)",
+        "product":"Latte macchiato soia",
         "price": "2,00"
     },
     {
-        "product":"Schiumetta latte",
+        "product":"Latte macchiato Ginseng/orzo",
+        "price": "2,00"
+    },
+    {
+        "product":"Schiumetta di latte",
         "price": "2,00"
     },
     {
         "product":"Marocchino",
+        "price": "2,00"
+    },
+    {
+        "product":"Crema Caffe (estiva)",
         "price": "2,00"
     },
     {
