@@ -139,24 +139,28 @@ var caff = [
 
 var saltyBreakfast = [
     {
-        "product":"Paninetto al latte (cotto, crudo, salame)",
-        "price": "1,20"
+        "product":"Paninetto al latte",
+        "price": "1,20",
+        "ingridients":"cotto | crudo | salame"
     },
     {
         "product":"Pizzetta",
         "price": "1,20"
     },
     {
-        "product":"Focaccina normale (cotto, crudo, salame)",
-        "price": "1,20"
+        "product":"Focaccina normale",
+        "price": "1,20",
+        "ingridients":"cotto | crudo | salame"
     },
     {
-        "product":"Focaccina alla curcuma (cotto, crudo, salame)",
-        "price": "1,20"
+        "product":"Focaccina alla curcuma",
+        "price": "1,20",
+        "ingridients":"cotto | crudo | salame"
     },
     {
-        "product":"Focaccina alla farina id ceci (cotto, crudo, salame)",
-        "price": "1,20"
+        "product":"Focaccina con farina di ceci",
+        "price": "1,20",
+        "ingridients":"cotto | crudo | salame"
     },
 ]
 
@@ -609,7 +613,7 @@ for( i = 0; i < caff.length; i++){
 */
 for( i = 0; i < saltyBreakfast.length; i++){
     //console.log(caff[i]);
-    var str = `<div class='menu-item'><a id='pname'>${saltyBreakfast[i].product}:</a><a id='pprice'>${euro + saltyBreakfast[i].price}</a></div>`;
+    var str = `<div class='menu-item'><a id='pname'>${saltyBreakfast[i].product}:</a><a id='pprice'>${euro + saltyBreakfast[i].price}</a><p id='pingridients'>${saltyBreakfast[i].ingridients}</p></div>`;
     document.getElementById("menu-saltyBr").innerHTML += str;
 }
 
