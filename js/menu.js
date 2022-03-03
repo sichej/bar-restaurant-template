@@ -145,7 +145,8 @@ var saltyBreakfast = [
     },
     {
         "product":"Pizzetta",
-        "price": "1,20"
+        "price": "1,20",
+        "ingridients":""
     },
     {
         "product":"Focaccina normale",
