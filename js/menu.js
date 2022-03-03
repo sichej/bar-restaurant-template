@@ -291,6 +291,42 @@ var beverage = [
     }
 ]
 
+var juice = [
+    {
+        "product":"Pesca",
+        "price": "1,20"
+    },
+    {
+        "product":"ACE",
+        "price": "1,00"
+    },
+    {
+        "product":"Ananas",
+        "price": "1,00"
+    },
+    {
+        "product":"Mirtillo",
+        "price": "1,00"
+    },
+    {
+        "product":"Albicocca",
+        "price": "1,00"
+    },
+    {
+        "product":"Pompelmo",
+        "price": "1,00"
+    },
+    {
+        "product":"Pera",
+        "price": "1,00"
+    },
+    {
+        "product":"Arancia",
+        "price": "1,00"
+    }
+    
+]
+
 var burger = [
     {
         "product":"The Cups",
@@ -740,6 +776,15 @@ for( i = 0; i < beverage.length; i++){
     //console.log(caff[i]);
     var str = `<div class='menu-item'><a id='pname'>${beverage[i].product}:</a><a id='pprice'>${euro + beverage[i].price}</a></div>`;
     document.getElementById("menu-beverage").innerHTML += str;
+}
+
+/*
+* juice menu viewer
+*/
+for( i = 0; i < juice.length; i++){
+    //console.log(caff[i]);
+    var str = `<div class='menu-item'><a id='pname'>${juice[i].product}:</a><a id='pprice'>${euro + juice[i].price}</a></div>`;
+    document.getElementById("menu-juice").innerHTML += str;
 }
 
 /*
