@@ -137,6 +137,17 @@ var caff = [
     }
 ]
 
+var saltyBreakfast = [
+    {
+        "product":"Paninetto al latte (cotto, crudo, salame)",
+        "price": "1,20"
+    },
+    {
+        "product":"",
+        "price": "1,20"
+    },
+]
+
 var beverage = [
     {
         "product":"Caffe",
@@ -579,6 +590,15 @@ for( i = 0; i < caff.length; i++){
     //console.log(caff[i]);
     var str = `<div class='menu-item'><a id='pname'>${caff[i].product}:</a><a id='pprice'>${euro + caff[i].price}</a></div>`;
     document.getElementById("menu-caff").innerHTML += str;
+}
+
+/*
+* salty breakfast menu viewer
+*/
+for( i = 0; i < saltyBreakfast.length; i++){
+    //console.log(caff[i]);
+    var str = `<div class='menu-item'><a id='pname'>${saltyBreakfast[i].product}:</a><a id='pprice'>${euro + saltyBreakfast[i].price}</a></div>`;
+    document.getElementById("menu-saltyBr").innerHTML += str;
 }
 
 /*
