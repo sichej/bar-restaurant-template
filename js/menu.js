@@ -445,9 +445,9 @@ var dishes = [
         "ingridients": "fesa di tacchino | patate al forno | rucola | glassa di aceto balsamico"
     },
     {
-        "product":"",
+        "product":"Contorno a scelta",
         "price": "",
-        "ingridients": "Contorno a scelta: patate al forno | verdure grigliate"
+        "ingridients": "patate al forno | verdure grigliate"
     }
 ]
 
