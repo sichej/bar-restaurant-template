@@ -813,7 +813,7 @@ for( i = 0; i < cocktail.length; i++){
 */
 for( i = 0; i < cocktailAna.length; i++){
     //console.log(cocktail[i]);
-    var str = `<div class='menu-item'><a id='pname'>${cocktailAna[i].product}:</a><a id='pprice'>${euro + cocktailAna[i].price}</a><p id='pingridients'>${scocktailAnaalad[i].ingridients}</p></div>`;
+    var str = `<div class='menu-item'><a id='pname'>${cocktailAna[i].product}:</a><a id='pprice'>${euro + cocktailAna[i].price}</a><p id='pingridients'>${cocktailAna[i].ingridients}</p></div>`;
     document.getElementById("menu-cocktailAna").innerHTML += str;
 }
 
