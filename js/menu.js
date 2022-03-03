@@ -382,6 +382,11 @@ var burger = [
         "product":"Dublino",
         "price": "7,50",
         "ingridients": "pesto di cavallo | zucchine grigliate | salsa tartara"
+    },
+    {
+        "product":"",
+        "price": "",
+        "ingridients": "per ogni variazione in aggiunta +0,50 &#8364 "
     }
 ]
 
