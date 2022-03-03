@@ -609,54 +609,26 @@ var cocktail = [
 
 var cocktailAna = [
     {
-        "product":"Aperol Spritz",
-        "price": "9,00",
-        "ingridients":"Gin analcolico"
+        "product":"The Cups",
+        "price": "6,00",
+        "ingridients":"Gin analcolico | succo d'ananas | succo d'arancia | cocco"
     },
     {
-        "product":"Campari Spritz",
-        "price": "9,00"
+        "product":"2.0",
+        "price": "6,00",
+        "ingridients":"succo d'ananas | succo d'arancia | succo di limone | melograno"
     },
     {
-        "product":"Hugo Spritz",
-        "price": "9,00"
+        "product":"Light",
+        "price": "6,00",
+        "ingridients":"succo di pompelmo | succo d'ananas | melograno"
     },
     {
-        "product":"Gin Tonic",
-        "price": "9,00"
-    },
-    {
-        "product":"Gin Lemon",
-        "price": "9,00"
-    },
-    {
-        "product":"Negroni",
-        "price": "9,00"
-    },
-    {
-        "product":"Vodka Lemon",
-        "price": "9,00",
-    },
-    {
-        "product":"Pina Colada",
-        "price": "9,00"
-    },
-    {
-        "product":"Mojito",
-        "price": "9,00"
-    },
-    {
-        "product":"Americano",
-        "price": "9,00"
-    },
-    {
-        "product":"Analcolico alla Frutta",
-        "price": "9,00"
-    },
-    {
-        "product":"Long Island",
-        "price": "9,00"
+        "product":"Virgin",
+        "price": "6,00",
+        "ingridients":"succo d'ananas | succo d'arancia | succo alla pesca | menta"
     }
+    
 ]
 
 var amari = [
@@ -851,7 +823,7 @@ for( i = 0; i < bottleBeers.length; i++){
 */
 for( i = 0; i < beers.length; i++){
     //console.log(beers[i]);
-    var str = `<div class='menu-item'><a id='pname'>${beers[i].product}:</a><br><a class='marg-low'>piccola</a><a id='pprice'>${euro + beers[i].small}</a><br><a class='marg-low'>media</a><a id='pprice'>${euro + beers[i].medium}</a></div>`;
+    var str = `<div class='menu-item'><a id='pname'>${beers[i].product}:</a><br><a class='marg-low'>piccola 0.2</a><a id='pprice'>${euro + beers[i].small}</a><br><a class='marg-low'>media 0.4</a><a id='pprice'>${euro + beers[i].medium}</a></div>`;
     document.getElementById("menu-beers").innerHTML += str;
 }
 
