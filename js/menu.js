@@ -181,6 +181,29 @@ var saltyBreakfast = [
     
 ]
 
+var specCof = [
+    {
+        "product":"The Cups 2.0",
+        "price": "1,20",
+        "ingridients":"nutella | caffe | panna | cacao"
+    },
+    {
+        "product":"Golosino",
+        "price": "2,00",
+        "ingridients":"crema al pistacchio | caffe | panna | granelle di pistacchio"
+    },
+    {
+        "product":"Kinder Pilo",
+        "price": "2,00",
+        "ingridients":"crema al Kinder | caffe | panna | mini Kinder decoro"
+    },
+    {
+        "product":"Galak 2.0",
+        "price": "2,00",
+        "ingridients":"cioccolato bianco | panna | cacao"
+    }
+]
+
 var beverage = [
     {
         "product":"Caffe",
@@ -632,6 +655,15 @@ for( i = 0; i < saltyBreakfast.length; i++){
     //console.log(caff[i]);
     var str = `<div class='menu-item'><a id='pname'>${saltyBreakfast[i].product}:</a><a id='pprice'>${euro + saltyBreakfast[i].price}</a><p id='pingridients'>${saltyBreakfast[i].ingridients}</p></div>`;
     document.getElementById("menu-saltyBr").innerHTML += str;
+}
+
+/*
+* special coffe menu viewer
+*/
+for( i = 0; i < specCof.length; i++){
+    //console.log(caff[i]);
+    var str = `<div class='menu-item'><a id='pname'>${specCof[i].product}:</a><a id='pprice'>${euro + specCof[i].price}</a><p id='pingridients'>${specCof[i].ingridients}</p></div>`;
+    document.getElementById("menu-specCof").innerHTML += str;
 }
 
 /*
