@@ -8,10 +8,6 @@ var caff = [
         "price": "2,00"
     },
     {
-        "product":"Caffe macchiato soia",
-        "price": "1,00"
-    },
-    {
         "product":"Caffe Americano",
         "price": "2,00"
     },
@@ -24,6 +20,10 @@ var caff = [
         "price": "2,00"
     },
     {
+        "product":"Caffe macchiato soia",
+        "price": "1,00"
+    },
+    {
         "product":"Caffe con Panna",
         "price": "2,00"
     },
@@ -33,6 +33,10 @@ var caff = [
     },
     {
         "product":"Caffe shakerato corretto",
+        "price": "2,00"
+    },
+    {
+        "product":"Macchiatone",
         "price": "2,00"
     },
     {
@@ -48,7 +52,15 @@ var caff = [
         "price": "2,00"
     },
     {
-        "product":"Cioccolata con Panna",
+        "product":"Cioccolata calda con Panna",
+        "price": "2,00"
+    },
+    {
+        "product":"Latte bianco",
+        "price": "2,00"
+    },
+    {
+        "product":"Latte bianco di soia",
         "price": "2,00"
     },
     {
@@ -60,19 +72,11 @@ var caff = [
         "price": "2,00"
     },
     {
-        "product":"Latte bianco",
-        "price": "2,00"
-    },
-    {
         "product":"Schiumetta latte",
         "price": "2,00"
     },
     {
         "product":"Marocchino",
-        "price": "2,00"
-    },
-    {
-        "product":"Macchiatone",
         "price": "2,00"
     },
     {
