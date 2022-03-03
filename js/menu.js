@@ -163,6 +163,22 @@ var saltyBreakfast = [
         "price": "1,20",
         "ingridients":"cotto | crudo | salame"
     },
+    {
+        "product":"Brioches salata",
+        "price": "1,20",
+        "ingridients":"cotto | crudo"
+    },
+    {
+        "product":"Brioches salata con insalata",
+        "price": "1,20",
+        "ingridients":"cotto | crudo"
+    },
+    {
+        "product":"Erbazzone",
+        "price": "1,20",
+        "ingridients":""
+    }
+    
 ]
 
 var beverage = [
