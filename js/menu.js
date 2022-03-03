@@ -5,75 +5,75 @@ var caff = [
     },
     {
         "product":"Caffe deca",
-        "price": "2,00"
+        "price": "1,20"
     },
     {
         "product":"Caffe Americano",
-        "price": "2,00"
+        "price": "1,20"
     },
     {
         "product":"Caffe corretto",
-        "price": "2,00"
+        "price": "1,60"
     },
     {
         "product":"Caffe doppio",
-        "price": "2,00"
+        "price": "2,40"
     },
     {
         "product":"Caffe macchiato soia",
-        "price": "1,00"
+        "price": "1,30"
     },
     {
         "product":"Caffe con Panna",
-        "price": "2,00"
+        "price": "1,60"
     },
     {
         "product":"Caffe shakerato",
-        "price": "2,00"
+        "price": "2,50"
     },
     {
         "product":"Caffe shakerato corretto",
-        "price": "2,00"
+        "price": "3,00"
     },
     {
         "product":"Ginseng/orzo piccolo",
-        "price": "2,00"
+        "price": "1,30"
     },
     {
         "product":"Ginseng/orzo grande",
-        "price": "2,00"
+        "price": "1,60"
     },
     {
         "product":"Macchiatone",
-        "price": "2,00"
+        "price": "1,30"
     },
     {
         "product":"Cappuccino",
-        "price": "2,00"
+        "price": "1,60"
     },
     {
         "product":"Cappuccino soia",
-        "price": "2,50 a 3,00"
+        "price": "2,00"
     },
     {
         "product":"Cappuccino al Ginseng/orzo",
-        "price": "2,00"
+        "price": "1,80"
     },
     {
         "product":"Cioccolata calda",
-        "price": "2,00"
+        "price": "3,00"
     },
     {
         "product":"Cioccolata calda con Panna",
-        "price": "2,00"
+        "price": "3,50"
     },
     {
         "product":"Latte bianco",
-        "price": "2,00"
+        "price": "1,20"
     },
     {
         "product":"Latte bianco di soia",
-        "price": "2,00"
+        "price": "1,30"
     },
     {
         "product":"Latte macchiato",
@@ -81,7 +81,7 @@ var caff = [
     },
     {
         "product":"Latte macchiato soia",
-        "price": "2,00"
+        "price": "2,20"
     },
     {
         "product":"Latte macchiato Ginseng/orzo",
@@ -89,7 +89,7 @@ var caff = [
     },
     {
         "product":"Schiumetta di latte",
-        "price": "2,00"
+        "price": "0,50"
     },
     {
         "product":"Marocchino",
@@ -97,7 +97,7 @@ var caff = [
     },
     {
         "product":"Crema Caffe (estiva)",
-        "price": "2,00"
+        "price": "2,50"
     },
     {
         "product":"Tea caldo classico",
@@ -125,57 +125,57 @@ var caff = [
     },
     {
         "product":"Brioches",
-        "price": "2,00"
+        "price": "1,20"
     },
     {
         "product":"Muffin al ciocolato",
-        "price": "2,00"
+        "price": "2,50"
     },
     {
         "product":"Rosa del deserto al cioccolato",
-        "price": "2,00"
+        "price": "1,00"
     }
 ]
 
 var saltyBreakfast = [
     {
         "product":"Paninetto al latte",
-        "price": "1,20",
+        "price": "1,50",
         "ingridients":"cotto | crudo | salame"
     },
     {
         "product":"Pizzetta",
-        "price": "1,20",
+        "price": "1,50",
         "ingridients":""
     },
     {
         "product":"Focaccina normale",
-        "price": "1,20",
+        "price": "2,00",
         "ingridients":"cotto | crudo | salame"
     },
     {
         "product":"Focaccina alla curcuma",
-        "price": "1,20",
+        "price": "2,00",
         "ingridients":"cotto | crudo | salame"
     },
     {
         "product":"Focaccina con farina di ceci",
-        "price": "1,20",
+        "price": "2,00",
         "ingridients":"cotto | crudo | salame"
     },
     {
         "product":"Brioches salata",
-        "price": "1,20",
+        "price": "2,50",
         "ingridients":"cotto | crudo"
     },
     {
         "product":"Brioches salata con insalata",
-        "price": "1,20",
+        "price": "2,50",
         "ingridients":"cotto | crudo"
     },
     {
         "product":"Erbazzone",
-        "price": "1,20",
+        "price": "2,50",
         "ingridients":""
     }
     
@@ -184,22 +184,22 @@ var saltyBreakfast = [
 var specCof = [
     {
         "product":"The Cups 2.0",
-        "price": "1,20",
+        "price": "4,00",
         "ingridients":"nutella | caffe | panna | cacao"
     },
     {
         "product":"Golosino",
-        "price": "2,00",
+        "price": "4,00",
         "ingridients":"crema al pistacchio | caffe | panna | granelle di pistacchio"
     },
     {
         "product":"Kinder Pilo",
-        "price": "2,00",
+        "price": "4,00",
         "ingridients":"crema al Kinder | caffe | panna | mini Kinder decoro"
     },
     {
         "product":"Galak 2.0",
-        "price": "2,00",
+        "price": "4,00",
         "ingridients":"cioccolato bianco | panna | cacao"
     }
 ]
@@ -207,27 +207,27 @@ var specCof = [
 var beverage = [
     {
         "product":"Acqua 50cl",
-        "price": "1,20"
-    },
-    {
-        "product":"Acqua 1L",
         "price": "1,00"
     },
     {
-        "product":"Spremuta arancia/pompelmo rosa",
+        "product":"Acqua 1L",
         "price": "2,00"
     },
     {
+        "product":"Spremuta arancia/pompelmo rosa",
+        "price": "3,00"
+    },
+    {
         "product":"Estathe brick pesca/limone",
-        "price": "2,50"
+        "price": "1,20"
     },
     {
         "product":"Estathe zero limone",
-        "price": "2,50"
+        "price": "1,20"
     },
     {
         "product":"Estathe deteinato limone",
-        "price": "2,50"
+        "price": "1,20"
     },
     {
         "product":"Estathe lattina pesca/limone",
@@ -239,19 +239,19 @@ var beverage = [
     },
     {
         "product":"CocaCola",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Cocacola zero",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Fanta",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Sprite",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Lemon Soda",
@@ -259,7 +259,7 @@ var beverage = [
     },
     {
         "product":"Acqua Tonica",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Ginger Beer",
@@ -267,62 +267,62 @@ var beverage = [
     },
     {
         "product":"Chinotto",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"RedBull",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Crodino",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Sanbitter rosso",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Camparisoda",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Credrata Tassoni",
-        "price": "2,50"
+        "price": "3,00"
     }
 ]
 
 var juice = [
     {
         "product":"Pesca",
-        "price": "1,20"
+        "price": "2,50"
     },
     {
         "product":"ACE",
-        "price": "1,00"
+        "price": "2,50"
     },
     {
         "product":"Ananas",
-        "price": "1,00"
+        "price": "2,50"
     },
     {
         "product":"Mirtillo",
-        "price": "1,00"
+        "price": "2,50"
     },
     {
         "product":"Albicocca",
-        "price": "1,00"
+        "price": "2,50"
     },
     {
         "product":"Pompelmo",
-        "price": "1,00"
+        "price": "2,50"
     },
     {
         "product":"Pera",
-        "price": "1,00"
+        "price": "2,50"
     },
     {
         "product":"Arancia",
-        "price": "1,00"
+        "price": "2,50"
     }
     
 ]
@@ -510,12 +510,12 @@ var beers = [
     {
         "product":"Forst Kronen chiara",
         "small": "3,00",
-        "medium": "4,00"
+        "medium": "4,50"
     },
     {
         "product":"Forst Sixtus rossa",
         "small": "3,00",
-        "medium": "4,00"
+        "medium": "4,50"
     }
 ]
 
@@ -527,12 +527,12 @@ var wine = [
     },
     {
         "product":"Malvasia",
-        "price": "20,00",
+        "price": "14,00",
         "glass": "2,50"
     },
     {
         "product":"Trento DOC",
-        "price": "20,50",
+        "price": "30,00",
         "glass": "6,00"
     },
     {
@@ -542,12 +542,12 @@ var wine = [
     },
     {
         "product":"Lambrusco",
-        "price": "20,50",
+        "price": "14,00",
         "glass": "2,50"
     },
     {
         "product":"Rosso fermo",
-        "price": "20,50",
+        "price": "25,00",
         "glass": "4,00"
     }
 ]
@@ -555,55 +555,55 @@ var wine = [
 var cocktail = [
     {
         "product":"Aperol Spritz",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Campari Spritz",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Hugo Spritz",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Gin Tonic",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Gin Lemon",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Negroni",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Vodka Lemon",
-        "price": "9,00",
+        "price": "6,00",
     },
     {
         "product":"Pina Colada",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Mojito",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Americano",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Coca Montenegro",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Coca Malibu",
-        "price": "9,00"
+        "price": "6,00"
     },
     {
         "product":"Sex on the Beach",
-        "price": "9,00"
+        "price": "6,00"
     }
 ]
 
@@ -669,7 +669,7 @@ var amari = [
     },
     {
         "product":"Grappa Barricata",
-        "price": "3,00"
+        "price": "4,00"
     },
     {
         "product":"Jack Daniel's",
