@@ -331,7 +331,7 @@ var burger = [
     {
         "product":"Parigi",
         "price": "6,00",
-        "ingridients": "crudo | brie | salsa radicchio"
+        "ingridients": "crudo | brie | salsa al radicchio"
     },
     {
         "product":"Milano",
@@ -361,7 +361,7 @@ var burger = [
     {
         "product":"Budapest",
         "price": "6,00",
-        "ingridients": "crudo | patate al forno | scamorza | salsa di radicchio"
+        "ingridients": "crudo | patate al forno | scamorza | salsa al radicchio"
     },
     {
         "product":"Mosca",
@@ -399,7 +399,7 @@ var piadine = [
     {
         "product":"Francia",
         "price": "6,50",
-        "ingridients": "cotto | brie | salsa di radicchio"
+        "ingridients": "cotto | brie | salsa al radicchio"
     },
     {
         "product":"USA",
@@ -409,7 +409,7 @@ var piadine = [
     {
         "product":"Olanda",
         "price": "6,50",
-        "ingridients": "cotto | insalata | fontina | salsa di funghi"
+        "ingridients": "cotto | insalata | fontina | salsa ai funghi"
     }
 ]
 
@@ -417,7 +417,7 @@ var dishes = [
     {
         "product":"Nairobi",
         "price": "9,00",
-        "ingridients": "roastbeef | grana a scaglie| rucola"
+        "ingridients": "roastbeef | scaglie di parmigino | rucola"
     },
     {
         "product":"Londra",
@@ -437,12 +437,17 @@ var dishes = [
     {
         "product":"Santiago",
         "price": "9,00",
-        "ingridients": "fesa di tacchino | rizzoli | mix di verdure miste"
+        "ingridients": "fesa di tacchino | alici rizzoli | mix di verdure miste"
     },
     {
         "product":"Ginevra",
         "price": "9,00",
         "ingridients": "fesa di tacchino | patate al forno | rucola | glassa di aceto balsamico"
+    },
+    {
+        "product":"",
+        "price": "",
+        "ingridients": "Contorno a scelta: patate al forno | verdure grigliate"
     }
 ]
 
@@ -470,7 +475,7 @@ var salad = [
     {
         "product":"Lisbona",
         "price": "9,00",
-        "ingridients": "Insalata | rucola | valeriana | radicchio rosso | noci | zucchine pugliesi | tomino caldo | pomodorini gialli"
+        "ingridients": "Insalata | rucola | valeriana | radicchio rosso | noci | zucchine pugliesi | tomino caldo | pomodorini"
     }
 ]
 
