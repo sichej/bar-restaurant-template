@@ -329,9 +329,9 @@ var juice = [
 
 var burger = [
     {
-        "product":"The Cups",
+        "product":"Parigi",
         "price": "6,00",
-        "ingridients": "culatta | funghi porcini | burro"
+        "ingridients": "crudo | brie | salsa radicchio"
     },
     {
         "product":"Milano",
@@ -339,54 +339,49 @@ var burger = [
         "ingridients": "cotoletta | insalata | pomodoro"
     },
     {
-        "product":"The Wall",
-        "price": "6,00",
-        "ingridients": "crudo | patate al forno | gorgonzola | salsa di radicchio"
-    },
-    {
-        "product":"Lollo",
-        "price": "6,00",
-        "ingridients": "salame | burro | alici rizzoli"
-    },
-    {
-        "product":"Pimpa",
-        "price": "6,00",
-        "ingridients": "crudo | insalata | pomodoro | olio evo | scamorza"
-    },
-    {
-        "product":"Ct",
-        "price": "6,00",
-        "ingridients": "spalla cotto | senape in grani | miele | scaglie di parmigiano"
-    },
-    {
-        "product":"Bucefalo",
-        "price": "6,00",
-        "ingridients": "pesto di cavallo | olive | capperi | alici rizzoli | tartara"
-    },
-    {
-        "product":"Spirit",
-        "price": "6,00",
-        "ingridients": "pesto di cavallo | brie | carciofi"
-    },
-    {
-        "product":"Michi",
-        "price": "6,00",
-        "ingridients": "roastbeef | rucola | parmigiano | salsa di cottura"
-    },
-    {
-        "product":"Primavera",
+        "product":"Roma",
         "price": "6,00",
         "ingridients": "cotto | mozzarella | insalata | pomodoro"
     },
     {
-        "product":"Valtellina",
+        "product":"New York",
         "price": "6,00",
-        "ingridients": "bresaola | rucola | parmigiano | salsa capricciosa"
+        "ingridients": "bresaola | patate alla paprika | fontina"
     },
     {
-        "product":"Vegeta",
+        "product":"Citta del Messico",
         "price": "6,00",
-        "ingridients": "zucchine grigliate | melanzane grigliate | carciofi | olio evo"
+        "ingridients": "salame | scamorza | salsa The Cups"
+    },
+    {
+        "product":"Bogota",
+        "price": "6,00",
+        "ingridients": "zucchine grigliate | melanzane grigliate | fontina | tonno"
+    },
+    {
+        "product":"Budapest",
+        "price": "6,00",
+        "ingridients": "crudo | patate al forno | scamorza | salsa di radicchio"
+    },
+    {
+        "product":"Mosca",
+        "price": "6,00",
+        "ingridients": "speck | rucola | parmigiano | salsa capricciosa"
+    },
+    {
+        "product":"Pechino",
+        "price": "6,00",
+        "ingridients": "tonno | mozzarella | insalata | pomodoro"
+    },
+    {
+        "product":"Dakota",
+        "price": "7,50",
+        "ingridients": "pesto di cavallo | fontina | tabasco | salsa capricciosa"
+    },
+    {
+        "product":"Dublino",
+        "price": "7,50",
+        "ingridients": "pesto di cavallo | zucchine grigliate | salsa tartara"
     }
 ]
 
@@ -426,7 +421,7 @@ var dishes = [
     },
     {
         "product":"Madrid",
-        "price": "9,00",
+        "price": "8,50",
         "ingridients": "cotoletta milanese | contorno a scelta"
     },
     {
