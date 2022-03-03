@@ -126,6 +126,14 @@ var caff = [
     {
         "product":"Brioches",
         "price": "2,00"
+    },
+    {
+        "product":"Muffin al ciocolato",
+        "price": "2,00"
+    },
+    {
+        "product":"Rosa del deserto al cioccolato",
+        "price": "2,00"
     }
 ]
 
