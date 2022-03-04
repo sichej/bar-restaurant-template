@@ -1,4 +1,4 @@
-body {/*background-color: #fff3d1;*/
+body {
 background-color: #141414;}
 
 .main-title{
@@ -26,18 +26,11 @@ background-color: #141414;}
     text-align: center;
 }
 
-/*
-#pname{
-    border: 1px solid #ffcd42;
-    border-radius: 4px;
-}*/
-
 #lblpaint{
     font-family: 'Brush Script MT', cursive;
 }
 
 .smallimg{
-    /*text-align: center;*/
     width: 200px;
     height: 200px;
 }
@@ -58,13 +51,8 @@ background-color: #141414;}
 
 /* big menu form*/
 .menu-viewer{
-    /*background-color: #ed9e15;*/
     background-color: #141414;
-    /*text-align: center;*/
     display:block;
-    /*border-width:2px;
-    border-style:solid;
-    /*border-color:black;*/
     margin: 10px;
 }
 
