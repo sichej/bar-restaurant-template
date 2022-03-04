@@ -498,14 +498,12 @@ var wine = [
     {
         "product":"Malvasia",
         "price": "14,00",
-        "glass": "2,50",
-        "gmac": "3,00"
+        "glass": "2,50"
     },
     {
         "product":"Prosecco",
         "price": "20,00",
-        "glass": "4,00",
-        "gmac": "4,50"
+        "glass": "4,00"
     },
     {
         "product":"Trento DOC",
@@ -750,6 +748,7 @@ var euro = "&#8364 ";
 // +0,50 euro aggiunta
 var txtAdd = 'per ogni variazione in aggiunta +0,50 &#8364 ';
 var txtCont = 'Contorno a scelta: patate al forno | verdure grigliate';
+var txtMac = 'calice macchiato +0,50 &#8364 ';
 
 /*
 * caffeteria menu viewer
@@ -865,9 +864,10 @@ for( i = 0; i < beers.length; i++){
 * wine menu viewer
 */
 for( i = 0; i < wine.length; i++){
-    var str = `<div class='menu-item'><a id='pname'>${wine[i].product}:</a><a id='pprice'>${euro + wine[i].price}</a><br><a class='marg-low'>calice</a><a id='pprice'>${euro + wine[i].glass}</a><br><a class='marg-low'>calice</a><a id='pprice'>${euro + wine[i].gmac}</a></div>`;
+    var str = `<div class='menu-item'><a id='pname'>${wine[i].product}:</a><a id='pprice'>${euro + wine[i].price}</a><br><a class='marg-low'>calice</a><a id='pprice'>${euro + wine[i].glass}</a></div>`;
     document.getElementById("menu-wine").innerHTML += str;
 }
+document.getElementById("menu-wine").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtMac}</p></div>`;
 
 /*
 * amari menu viewer
