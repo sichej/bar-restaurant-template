@@ -840,6 +840,7 @@ for( i = 0; i < piadine.length; i++){
     var str = `<div class='menu-item'><a id='pname'>${piadine[i].product}:</a><a id='pprice'>${euro + piadine[i].price}</a><p id='pingridients'>${piadine[i].ingridients}</p></div>`;
     document.getElementById("menu-piadine").innerHTML += str;
 }
+document.getElementById("menu-piadine").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtAdd}</p></div>`;
 
 /*
 * salad menu viewer
