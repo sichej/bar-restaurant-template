@@ -367,11 +367,6 @@ var burger = [
         "product":"Dublino",
         "price": "7,50",
         "ingridients": "pesto di cavallo | zucchine grigliate | salsa tartara"
-    },
-    {
-        "product":"",
-        "price": "",
-        "ingridients": "per ogni variazione in aggiunta +0,50 &#8364 "
     }
 ]
 
@@ -833,6 +828,9 @@ for( i = 0; i < burger.length; i++){
     var str = `<div class='menu-item'><a id='pname'>${burger[i].product}:</a><a id='pprice'>${euro + burger[i].price}</a><p id='pingridients'>${burger[i].ingridients}</p></div>`;
     document.getElementById("menu-burger").innerHTML += str;
 }
+// +0,50 euro aggiunta
+var txtAdd = 'per ogni variazione in aggiunta +0,50 &#8364 ';
+document.getElementById("menu-burger").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtAdd}</p></div>`;
 
 /*
 * piadine menu viewer
