@@ -544,14 +544,14 @@ var cocktail = [
         "ingridients":"sciroppo di sambuco | prosecco | soda"
     },
     {
-        "product":"Gin Tonic/Lemon",
+        "product":"Gin Tonic / Lemon",
         "price": "6,00",
-        "ingridients":"hendrik's | acqua tonica/lemon soda"
+        "ingridients":"hendrik's | acqua tonica / lemon soda"
     },
     {
         "product":"Gin Tonic/Lemon",
         "price": "6,00",
-        "ingridients":"bombey | acqua tonica/lemon soda"
+        "ingridients":"bombey | acqua tonica / lemon soda"
     },
     {
         "product":"Gin Tonic/Lemon",
