@@ -456,18 +456,6 @@ var salad = [
 
 var bottleBeers = [
     {
-        "product":"Ceres",
-        "price": "4,00"
-    },
-    {
-        "product":"Corona",
-        "price": "3,50"
-    },
-    {
-        "product":"Ichnusa non Filtrata",
-        "price": "3,00"
-    },
-    {
         "product":"Heineken",
         "price": "3,00"
     },
@@ -475,6 +463,18 @@ var bottleBeers = [
         "product":"Beck's",
         "price": "3,00"
     },
+    {
+        "product":"Ichnusa non Filtrata",
+        "price": "3,00"
+    },
+    {
+        "product":"Corona",
+        "price": "3,50"
+    },
+    {
+        "product":"Ceres",
+        "price": "4,00"
+    },   
     {
         "product":"Artigian art Caffe",
         "price": "4,00"
