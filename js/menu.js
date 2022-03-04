@@ -767,6 +767,7 @@ var i = 0;
 var euro = "&#8364 ";
 // +0,50 euro aggiunta
 var txtAdd = 'per ogni variazione in aggiunta +0,50 &#8364 ';
+var txtCont = 'Contorno a scelta: patate al forno | verdure grigliate &#8364 ';
 
 /*
 * caffeteria menu viewer
@@ -821,7 +822,7 @@ for( i = 0; i < dishes.length; i++){
     var str = `<div class='menu-item'><a id='pname'>${dishes[i].product}:</a><a id='pprice'>${euro + dishes[i].price}</a><p id='pingridients'>${dishes[i].ingridients}</p></div>`;
     document.getElementById("menu-dishes").innerHTML += str;
 }
-document.getElementById("menu-dishes").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtAdd}</p></div>`;
+document.getElementById("menu-dishes").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtCont}</p></div>`;
 /*
 * burger menu viewer
 */
