@@ -559,9 +559,19 @@ var cocktail = [
         "ingridients":"hendrik's | acqua tonica"
     },
     {
+        "product":"Gin Tonic",
+        "price": "6,00",
+        "ingridients":"bombey | acqua tonica"
+    },
+    {
+        "product":"Gin Tonic",
+        "price": "6,00",
+        "ingridients":"gordon's | acqua tonica"
+    },
+    {
         "product":"Gin Lemon",
         "price": "6,00",
-        "ingridients":""
+        "ingridients":"gin | lemon soda"
     },
     {
         "product":"Vodka Tonic",
@@ -645,7 +655,8 @@ var cocktail = [
     },
     {
         "product":"Sex on the Beach",
-        "price": "6,00"
+        "price": "6,00",
+        "ingridients":"non so gli ingredienti"
     }
 ]
 
