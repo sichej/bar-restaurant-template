@@ -541,7 +541,7 @@ var cocktail = [
     {
         "product":"Hugo Spritz",
         "price": "6,00",
-        "ingridients":"sciroppo di sambuco | prosecco | soda"
+        "ingridients":"prosecco | sciroppo di sambuco | soda"
     },
     {
         "product":"Gin Tonic / Lemon",
@@ -641,7 +641,7 @@ var cocktail = [
     {
         "product":"Sex on the Beach",
         "price": "6,00",
-        "ingridients":"vodka liscia | vodka pesca | succo al mirtillo | succo all'arancia"
+        "ingridients":"vodka liscia | vodka pesca | succo al mirtillo | succo d'arancia"
     }
 ]
 
@@ -649,7 +649,7 @@ var cocktailAna = [
     {
         "product":"The Cups",
         "price": "6,00",
-        "ingridients":"Gin analcolico | succo d'ananas | succo d'arancia | cocco"
+        "ingridients":"succo d'ananas | succo d'arancia | cocco"
     },
     {
         "product":"2.0",
