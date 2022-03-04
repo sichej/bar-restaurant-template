@@ -574,14 +574,14 @@ var cocktail = [
         "ingridients":"vodka liscia | lemon soda"
     },
     {
-        "product":"Pesquito",
-        "price": "6,00",
-        "ingridients":"vodka pesca | lemon soda"
-    },
-    {
         "product":"Vodka Redbull",
         "price": "6,00",
         "ingridients":"vodka liscia | redbull"
+    },
+    {
+        "product":"Pesquito",
+        "price": "6,00",
+        "ingridients":"vodka pesca | lemon soda"
     },
     {
         "product":"Negroni",
