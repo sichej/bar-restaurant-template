@@ -846,7 +846,7 @@ for( i = 0; i < salad.length; i++){
 */
 for( i = 0; i < cocktail.length; i++){
     //console.log(cocktail[i]);
-    var str = `<div class='menu-item'><a id='pname'>${cocktail[i].product}:</a><a id='pprice'>${euro + cocktail[i].price}</a></div>`;
+    var str = `<div class='menu-item'><a id='pname'>${cocktail[i].product}:</a><a id='pprice'>${euro + cocktail[i].price}</a><p id='pingridients'>${cocktail[i].ingridients}</p></div>`;
     document.getElementById("menu-cocktail").innerHTML += str;
 }
 
