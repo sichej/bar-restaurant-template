@@ -45,7 +45,7 @@ var caff = [
     },
     {
         "product":"Macchiatone",
-        "price": "1,30"
+        "price": "1,20"
     },
     {
         "product":"Cappuccino",
@@ -443,7 +443,7 @@ var salad = [
         "ingridients": "Insalata | radicchio | mozzarella | carciofi | cotto | pomodorini"
     },
     {
-        "product":"Hawai",
+        "product":"Hawaii",
         "price": "9,00",
         "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea | funghi porcini"
     },
