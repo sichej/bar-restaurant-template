@@ -315,47 +315,47 @@ var juice = [
 var burger = [
     {
         "product":"Parigi",
-        "price": "6,00",
+        "price": "6,50",
         "ingridients": "crudo | brie | salsa al radicchio"
     },
     {
         "product":"Milano",
-        "price": "6,00",
+        "price": "6,50",
         "ingridients": "cotoletta | insalata | pomodoro"
     },
     {
         "product":"Roma",
-        "price": "6,00",
+        "price": "6,50",
         "ingridients": "cotto | mozzarella | insalata | pomodoro"
     },
     {
         "product":"New York",
-        "price": "6,00",
+        "price": "6,50",
         "ingridients": "bresaola | patate alla paprika | fontina | salsa tartara"
     },
     {
         "product":"Citta del Messico",
-        "price": "6,00",
+        "price": "6,50",
         "ingridients": "salame | scamorza | salsa The Cups"
     },
     {
         "product":"Bogotà",
-        "price": "6,00",
+        "price": "6,50",
         "ingridients": "zucchine grigliate | melanzane grigliate | fontina | tonno"
     },
     {
         "product":"Budapest",
-        "price": "6,00",
+        "price": "6,50",
         "ingridients": "crudo | patate al forno | scamorza | salsa al radicchio"
     },
     {
         "product":"Mosca",
-        "price": "6,00",
+        "price": "6,50",
         "ingridients": "speck | rucola | parmigiano | salsa capricciosa"
     },
     {
         "product":"Pechino",
-        "price": "6,00",
+        "price": "6,50",
         "ingridients": "tonno | mozzarella | insalata | pomodoro"
     },
     {
