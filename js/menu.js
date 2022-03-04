@@ -763,7 +763,6 @@ var txtCont = 'Contorno a scelta: patate al forno | verdure grigliate';
 * caffeteria menu viewer
 */
 for( i = 0; i < caff.length; i++){
-    //console.log(caff[i]);
     var str = `<div class='menu-item'><a id='pname'>${caff[i].product}:</a><a id='pprice'>${euro + caff[i].price}</a></div>`;
     document.getElementById("menu-caff").innerHTML += str;
 }
@@ -772,7 +771,6 @@ for( i = 0; i < caff.length; i++){
 * salty breakfast menu viewer
 */
 for( i = 0; i < saltyBreakfast.length; i++){
-    //console.log(caff[i]);
     var str = `<div class='menu-item'><a id='pname'>${saltyBreakfast[i].product}:</a><a id='pprice'>${euro + saltyBreakfast[i].price}</a><p id='pingridients'>${saltyBreakfast[i].ingridients}</p></div>`;
     document.getElementById("menu-saltyBr").innerHTML += str;
 }
@@ -781,7 +779,6 @@ for( i = 0; i < saltyBreakfast.length; i++){
 * special coffe menu viewer
 */
 for( i = 0; i < specCof.length; i++){
-    //console.log(caff[i]);
     var str = `<div class='menu-item'><a id='pname'>${specCof[i].product}:</a><a id='pprice'>${euro + specCof[i].price}</a><p id='pingridients'>${specCof[i].ingridients}</p></div>`;
     document.getElementById("menu-specCof").innerHTML += str;
 }
@@ -790,7 +787,6 @@ for( i = 0; i < specCof.length; i++){
 * beverage menu viewer
 */
 for( i = 0; i < beverage.length; i++){
-    //console.log(caff[i]);
     var str = `<div class='menu-item'><a id='pname'>${beverage[i].product}:</a><a id='pprice'>${euro + beverage[i].price}</a></div>`;
     document.getElementById("menu-beverage").innerHTML += str;
 }
@@ -799,7 +795,6 @@ for( i = 0; i < beverage.length; i++){
 * juice menu viewer
 */
 for( i = 0; i < juice.length; i++){
-    //console.log(caff[i]);
     var str = `<div class='menu-item'><a id='pname'>${juice[i].product}:</a><a id='pprice'>${euro + juice[i].price}</a></div>`;
     document.getElementById("menu-juice").innerHTML += str;
 }
@@ -808,7 +803,6 @@ for( i = 0; i < juice.length; i++){
 * dishes menu viewer
 */
 for( i = 0; i < dishes.length; i++){
-    //console.log(dishes[i]);
     var str = `<div class='menu-item'><a id='pname'>${dishes[i].product}:</a><a id='pprice'>${euro + dishes[i].price}</a><p id='pingridients'>${dishes[i].ingridients}</p></div>`;
     document.getElementById("menu-dishes").innerHTML += str;
 }
@@ -828,7 +822,6 @@ document.getElementById("menu-burger").innerHTML += `<div class='menu-item'><p i
 * piadine menu viewer
 */
 for( i = 0; i < piadine.length; i++){
-    //console.log(piadine[i]);
     var str = `<div class='menu-item'><a id='pname'>${piadine[i].product}:</a><a id='pprice'>${euro + piadine[i].price}</a><p id='pingridients'>${piadine[i].ingridients}</p></div>`;
     document.getElementById("menu-piadine").innerHTML += str;
 }
@@ -838,16 +831,15 @@ document.getElementById("menu-piadine").innerHTML += `<div class='menu-item'><p 
 * salad menu viewer
 */
 for( i = 0; i < salad.length; i++){
-    //console.log(salad[i]);
     var str = `<div class='menu-item'><a id='pname'>${salad[i].product}:</a><a id='pprice'>${euro + salad[i].price}</a><p id='pingridients'>${salad[i].ingridients}</p></div>`;
     document.getElementById("menu-salad").innerHTML += str;
 }
+document.getElementById("menu-piadine").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtAdd}</p></div>`;
 
 /*
 * cocktail menu viewer
 */
 for( i = 0; i < cocktail.length; i++){
-    //console.log(cocktail[i]);
     var str = `<div class='menu-item'><a id='pname'>${cocktail[i].product}:</a><a id='pprice'>${euro + cocktail[i].price}</a><p id='pingridients'>${cocktail[i].ingridients}</p></div>`;
     document.getElementById("menu-cocktail").innerHTML += str;
 }
@@ -856,7 +848,6 @@ for( i = 0; i < cocktail.length; i++){
 * cocktailAna menu viewer
 */
 for( i = 0; i < cocktailAna.length; i++){
-    //console.log(cocktail[i]);
     var str = `<div class='menu-item'><a id='pname'>${cocktailAna[i].product}:</a><a id='pprice'>${euro + cocktailAna[i].price}</a><p id='pingridients'>${cocktailAna[i].ingridients}</p></div>`;
     document.getElementById("menu-cocktailAna").innerHTML += str;
 }
@@ -865,7 +856,6 @@ for( i = 0; i < cocktailAna.length; i++){
 * bottleBeers menu viewer
 */
 for( i = 0; i < bottleBeers.length; i++){
-    //console.log(beers[i]);
     var str = `<div class='menu-item'><a id='pname'>${bottleBeers[i].product}:</a><a id='pprice'>${euro + bottleBeers[i].price}</a></div>`;
     document.getElementById("menu-bottleBeers").innerHTML += str;
 }
@@ -874,7 +864,6 @@ for( i = 0; i < bottleBeers.length; i++){
 * beers menu viewer
 */
 for( i = 0; i < beers.length; i++){
-    //console.log(beers[i]);
     var str = `<div class='menu-item'><a id='pname'>${beers[i].product}:</a><br><a class='marg-low'>piccola 0.2</a><a id='pprice'>${euro + beers[i].small}</a><br><a class='marg-low'>media 0.4</a><a id='pprice'>${euro + beers[i].medium}</a></div>`;
     document.getElementById("menu-beers").innerHTML += str;
 }
@@ -883,7 +872,6 @@ for( i = 0; i < beers.length; i++){
 * wine menu viewer
 */
 for( i = 0; i < wine.length; i++){
-    //console.log(wine[i]);
     var str = `<div class='menu-item'><a id='pname'>${wine[i].product}:</a><a id='pprice'>${euro + wine[i].price}</a><br><a class='marg-low'>calice</a><a id='pprice'>${euro + wine[i].glass}</a></div>`;
     document.getElementById("menu-wine").innerHTML += str;
 }
@@ -892,7 +880,6 @@ for( i = 0; i < wine.length; i++){
 * amari menu viewer
 */
 for( i = 0; i < amari.length; i++){
-    //console.log(amari[i]);
     var str = `<div class='menu-item'><a id='pname'>${amari[i].product}:</a><a id='pprice'>${euro + amari[i].price}</a></div>`;
     document.getElementById("menu-amari").innerHTML += str;
 }
