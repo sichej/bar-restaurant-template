@@ -496,23 +496,25 @@ var beers = [
 
 var wine = [
     {
-        "product":"Prosecco",
-        "price": "20,00",
-        "glass": "4,00"
-    },
-    {
         "product":"Malvasia",
         "price": "14,00",
-        "glass": "2,50"
+        "glass": "2,50",
+        "gmac": "3,00"
+    },
+    {
+        "product":"Prosecco",
+        "price": "20,00",
+        "glass": "4,00",
+        "gmac": "4,50"
     },
     {
         "product":"Trento DOC",
-        "price": "30,00",
+        "price": "35,00",
         "glass": "6,00"
     },
     {
         "product":"Gewurtztraminer",
-        "price": "20,00",
+        "price": "24,00",
         "glass": "4,00"
     },
     {
@@ -522,12 +524,17 @@ var wine = [
     },
     {
         "product":"Rosso fermo",
-        "price": "25,00",
+        "price": "24,00",
         "glass": "4,00"
     }
 ]
 
 var cocktail = [
+    {
+        "product":"Camparisoda Macchiato",
+        "price": "3,50",
+        "ingridients":"prosecco | camparisoda"
+    },
     {
         "product":"Aperol Spritz",
         "price": "6,00",
@@ -579,11 +586,6 @@ var cocktail = [
         "ingridients":"vodka liscia | redbull"
     },
     {
-        "product":"Campari Macchiato",
-        "price": "3,50",
-        "ingridients":"prosecco | camparisoda"
-    },
-    {
         "product":"Negroni",
         "price": "6,00",
         "ingridients":"gin | bitter campari | martini rosso"
@@ -607,11 +609,6 @@ var cocktail = [
         "product":"Mojito",
         "price": "6,00",
         "ingridients":"rum bianco | sweet s. | lime | menta | zucchero di canna"
-    },
-    {
-        "product":"Pina Colada",
-        "price": "6,00",
-        "ingridients":"rum bianco | malibu | succo d'ananas | cocco"
     },
     {
         "product":"Moscow Mule",
@@ -802,6 +799,7 @@ for( i = 0; i < dishes.length; i++){
     document.getElementById("menu-dishes").innerHTML += str;
 }
 document.getElementById("menu-dishes").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtCont}</p></div>`;
+document.getElementById("menu-dishes").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtAdd}</p></div>`;
 
 /*
 * burger menu viewer
@@ -867,7 +865,7 @@ for( i = 0; i < beers.length; i++){
 * wine menu viewer
 */
 for( i = 0; i < wine.length; i++){
-    var str = `<div class='menu-item'><a id='pname'>${wine[i].product}:</a><a id='pprice'>${euro + wine[i].price}</a><br><a class='marg-low'>calice</a><a id='pprice'>${euro + wine[i].glass}</a></div>`;
+    var str = `<div class='menu-item'><a id='pname'>${wine[i].product}:</a><a id='pprice'>${euro + wine[i].price}</a><br><a class='marg-low'>calice</a><a id='pprice'>${euro + wine[i].glass}</a><br><a class='marg-low'>calice</a><a id='pprice'>${euro + wine[i].gmac}</a></div>`;
     document.getElementById("menu-wine").innerHTML += str;
 }
 
