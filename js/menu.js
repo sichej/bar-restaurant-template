@@ -834,7 +834,7 @@ for( i = 0; i < salad.length; i++){
     var str = `<div class='menu-item'><a id='pname'>${salad[i].product}:</a><a id='pprice'>${euro + salad[i].price}</a><p id='pingridients'>${salad[i].ingridients}</p></div>`;
     document.getElementById("menu-salad").innerHTML += str;
 }
-document.getElementById("menu-piadine").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtAdd}</p></div>`;
+document.getElementById("menu-salad").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtAdd}</p></div>`;
 
 /*
 * cocktail menu viewer
