@@ -651,7 +651,7 @@ var cocktail = [
     {
         "product":"Sex on the Beach",
         "price": "6,00",
-        "ingridients":"non so gli ingredienti"
+        "ingridients":"vodka liscia | vodka pesca | succo al mirtillo | succo all'arancia"
     }
 ]
 
