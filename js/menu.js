@@ -128,7 +128,7 @@ var caff = [
         "price": "1,20"
     },
     {
-        "product":"Muffin al ciocolato",
+        "product":"Muffin al cioccolato",
         "price": "2,50"
     },
     {
