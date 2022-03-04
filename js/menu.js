@@ -818,6 +818,7 @@ for( i = 0; i < dishes.length; i++){
     document.getElementById("menu-dishes").innerHTML += str;
 }
 document.getElementById("menu-dishes").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtCont}</p></div>`;
+
 /*
 * burger menu viewer
 */
