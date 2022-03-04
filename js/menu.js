@@ -762,7 +762,7 @@ var i = 0;
 var euro = "&#8364 ";
 // +0,50 euro aggiunta
 var txtAdd = 'per ogni variazione in aggiunta +0,50 &#8364 ';
-var txtCont = 'Contorno a scelta: patate al forno | verdure grigliate &#8364 ';
+var txtCont = 'Contorno a scelta: patate al forno | verdure grigliate';
 
 /*
 * caffeteria menu viewer
