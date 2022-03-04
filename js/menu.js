@@ -545,17 +545,17 @@ var cocktail = [
     },
     {
         "product":"Gin Tonic / Lemon",
-        "price": "6,00",
+        "price": "8,00",
         "ingridients":"hendrik's | acqua tonica / lemon soda"
     },
     {
-        "product":"Gin Tonic/Lemon",
+        "product":"Gin Tonic / Lemon",
         "price": "6,00",
         "ingridients":"bombey | acqua tonica / lemon soda"
     },
     {
-        "product":"Gin Tonic/Lemon",
-        "price": "8,00",
+        "product":"Gin Tonic / Lemon",
+        "price": "6,00",
         "ingridients":"gordon's | acqua tonica / lemon soda"
     },
     {
