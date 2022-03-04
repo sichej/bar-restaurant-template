@@ -423,11 +423,6 @@ var dishes = [
         "product":"Ginevra",
         "price": "9,00",
         "ingridients": "fesa di tacchino | patate al forno | rucola | glassa di aceto balsamico"
-    },
-    {
-        "product":"",
-        "price": "",
-        "ingridients": "Contorno a scelta: patate al forno | verdure grigliate"
     }
 ]
 
