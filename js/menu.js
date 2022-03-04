@@ -540,51 +540,108 @@ var wine = [
 var cocktail = [
     {
         "product":"Aperol Spritz",
-        "price": "6,00"
+        "price": "6,00",
+        "ingridients": "prosecco | aperol | soda"
     },
     {
         "product":"Campari Spritz",
-        "price": "6,00"
+        "price": "6,00",
+        "ingridients":"prosecco | bitter campari | soda"
     },
     {
         "product":"Hugo Spritz",
-        "price": "6,00"
+        "price": "6,00",
+        "ingridients":"sciroppo di sambuco | prosecco | soda"
     },
     {
         "product":"Gin Tonic",
-        "price": "6,00"
+        "price": "6,00",
+        "ingridients":"hendrik's | acqua tonica"
     },
     {
         "product":"Gin Lemon",
-        "price": "6,00"
+        "price": "6,00",
+        "ingridients":""
     },
     {
-        "product":"Negroni",
-        "price": "6,00"
+        "product":"Vodka Tonic",
+        "price": "6,00",
+        "ingridients":"vodka liscia | acqua tonica"
     },
     {
         "product":"Vodka Lemon",
         "price": "6,00",
+        "ingridients":"vodka liscia | lemon soda"
     },
     {
-        "product":"Pina Colada",
-        "price": "6,00"
+        "product":"Pesquito",
+        "price": "6,00",
+        "ingridients":"vodka pesca | lemon soda"
     },
     {
-        "product":"Mojito",
-        "price": "6,00"
+        "product":"Vodka Redbull",
+        "price": "6,00",
+        "ingridients":"vodka liscia | redbull"
+    },
+    {
+        "product":"Campari Macchiato",
+        "price": "3,50",
+        "ingridients":"prosecco | camparisoda"
+    },
+    {
+        "product":"Negroni",
+        "price": "6,00",
+        "ingridients":"gin | bitter campari | martini rosso"
+    },
+    {
+        "product":"Negroni Sbagliato",
+        "price": "6,00",
+        "ingridients":"prosecco | bitter campari | martini rosso"
     },
     {
         "product":"Americano",
-        "price": "6,00"
+        "price": "6,00",
+        "ingridients":"bitter campari | martini rosso | soda"
+    },
+    {
+        "product":"Jagerbomb",
+        "price": "6,00",
+        "ingridients":"jagermaister | redbull"
+    },
+    {
+        "product":"Mojito",
+        "price": "6,00",
+        "ingridients":"rum bianco | sweet s. | lime | menta | zucchero di canna"
+    },
+    {
+        "product":"Pina Colada",
+        "price": "6,00",
+        "ingridients":"rum bianco | malibu | succo d'ananas | cocco"
+    },
+    {
+        "product":"Long Island",
+        "price": "6,00",
+        "ingridients":"vodka liscia | gin | rum bianco | triple sec | coca cola"
+    },
+    {
+        "product":"Moscow Mule",
+        "price": "6,00",
+        "ingridients":"vodka liscia | ginger beer | lime | zenzero"
+    },
+    {
+        "product":"London Mule",
+        "price": "6,00",
+        "ingridients":"gin | ginger beer | lime | zenzero"
     },
     {
         "product":"Coca Montenegro",
-        "price": "6,00"
+        "price": "6,00",
+        "ingridients":"jagermaister | redbull"
     },
     {
         "product":"Coca Malibu",
-        "price": "6,00"
+        "price": "6,00",
+        "ingridients":"malibu | coca cola"
     },
     {
         "product":"Sex on the Beach",
