@@ -614,11 +614,6 @@ var cocktail = [
         "ingridients":"rum bianco | malibu | succo d'ananas | cocco"
     },
     {
-        "product":"Long Island",
-        "price": "6,00",
-        "ingridients":"vodka liscia | gin | rum bianco | triple sec | coca cola"
-    },
-    {
         "product":"Moscow Mule",
         "price": "6,00",
         "ingridients":"vodka liscia | ginger beer | lime | zenzero"
@@ -631,7 +626,7 @@ var cocktail = [
     {
         "product":"Coca Montenegro",
         "price": "6,00",
-        "ingridients":"jagermaister | redbull"
+        "ingridients":"Montenegro | coca cola"
     },
     {
         "product":"Coca Malibu",
