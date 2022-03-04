@@ -149,27 +149,12 @@ var saltyBreakfast = [
         "ingridients":""
     },
     {
-        "product":"Focaccina normale",
-        "price": "2,00",
-        "ingridients":"cotto | crudo | salame"
-    },
-    {
-        "product":"Focaccina alla curcuma",
-        "price": "2,00",
-        "ingridients":"cotto | crudo | salame"
-    },
-    {
-        "product":"Focaccina con farina di ceci",
+        "product":"Focaccina",
         "price": "2,00",
         "ingridients":"cotto | crudo | salame"
     },
     {
         "product":"Brioches salata",
-        "price": "2,50",
-        "ingridients":"cotto | crudo"
-    },
-    {
-        "product":"Brioches salata con insalata",
         "price": "2,50",
         "ingridients":"cotto | crudo"
     },
@@ -346,7 +331,7 @@ var burger = [
     {
         "product":"New York",
         "price": "6,00",
-        "ingridients": "bresaola | patate alla paprika | fontina"
+        "ingridients": "bresaola | patate alla paprika | fontina | salsa tartara"
     },
     {
         "product":"Citta del Messico",
@@ -354,7 +339,7 @@ var burger = [
         "ingridients": "salame | scamorza | salsa The Cups"
     },
     {
-        "product":"Bogota",
+        "product":"Bogotà",
         "price": "6,00",
         "ingridients": "zucchine grigliate | melanzane grigliate | fontina | tonno"
     },
