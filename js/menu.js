@@ -223,6 +223,10 @@ var beverage = [
         "price": "2,50"
     },
     {
+        "product":"Lemon Soda",
+        "price": "2,50"
+    },
+    {
         "product":"CocaCola",
         "price": "3,00"
     },
@@ -239,16 +243,12 @@ var beverage = [
         "price": "3,00"
     },
     {
-        "product":"Lemon Soda",
-        "price": "2,50"
-    },
-    {
         "product":"Acqua Tonica",
         "price": "3,00"
     },
     {
         "product":"Ginger Beer",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Chinotto",
