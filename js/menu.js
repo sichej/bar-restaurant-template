@@ -551,7 +551,7 @@ var cocktail = [
     {
         "product":"Gin Tonic / Lemon",
         "price": "8,00",
-        "ingridients":"hendrik's | acqua tonica / lemon soda"
+        "ingridients":"hendrick's | acqua tonica / lemon soda"
     },
     {
         "product":"Gin Tonic / Lemon",
