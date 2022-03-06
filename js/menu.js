@@ -448,9 +448,9 @@ var salad = [
         "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea | funghi porcini"
     },
     {
-        "product":"Lisbona",
+        "product":"Dubai",
         "price": "9,00",
-        "ingridients": "Insalata | rucola | valeriana | radicchio rosso | noci | zucchine pugliesi | tomino caldo | pomodorini"
+        "ingridients": "Insalata | rucola | valeriana | patate al forno | crudo | pomodorini | noci | salsa capricciosa"
     }
 ]
 
