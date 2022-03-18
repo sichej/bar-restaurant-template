@@ -185,7 +185,7 @@ var specCof = [
     {
         "product":"Galak 2.0",
         "price": "4,00",
-        "ingridients":"cioccolato bianco | panna | cacao"
+        "ingridients":"cioccolato bianco | caffe | panna | cacao"
     }
 ]
 
@@ -532,6 +532,11 @@ var cocktail = [
         "product":"Camparisoda Macchiato",
         "price": "3,50",
         "ingridients":"prosecco | camparisoda"
+    },
+    {
+        "product":"Camparisoda Macchiato Gin",
+        "price": "4,00",
+        "ingridients":"gin | camparisoda"
     },
     {
         "product":"Aperol Spritz",
