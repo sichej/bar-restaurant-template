@@ -314,6 +314,11 @@ var juice = [
 
 var burger = [
     {
+        "product":"Toast",
+        "price": "4,00",
+        "ingridients": "cotto | fontina"
+    },
+    {
         "product":"Parigi",
         "price": "6,50",
         "ingridients": "crudo | brie | salsa al radicchio"
