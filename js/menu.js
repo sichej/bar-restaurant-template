@@ -450,7 +450,7 @@ var salad = [
     {
         "product":"Hawaii",
         "price": "9,00",
-        "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea | funghi porcini"
+        "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea"
     },
     {
         "product":"Dubai",
