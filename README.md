@@ -1,7 +1,7 @@
 # bar-restaurant-template
 
 This is a template I coded to help other users to create a simple menu for their bar or restaurant.\
-In the `js/menu.js` you can find the example I used for one of my friend's bar [The Cups](https://festive-brown-49c133.netlify.app).\
+In the `js/menu.js` you can find the example I used for one of my friend's bar [The Cups](https://festive-brown-49c133.netlify.app).
 
 ## HTML structure
 
