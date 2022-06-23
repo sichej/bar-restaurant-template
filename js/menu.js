@@ -341,7 +341,7 @@ var burger = [
     {
         "product":"Citta del Messico",
         "price": "6,50",
-        "ingridients": "salame | scamorza | salsa The Cups"
+        "ingridients": "salame di Felino | scamorza | salsa The Cups"
     },
     {
         "product":"Bogotà",
@@ -465,6 +465,10 @@ var bottleBeers = [
         "price": "3,00"
     },
     {
+        "product":"Forst Sixtus rossa",
+        "price":"3,00"
+    },
+    {
         "product":"Beck's",
         "price": "3,00"
     },
@@ -493,7 +497,7 @@ var beers = [
         "medium": "4,50"
     },
     {
-        "product":"Forst Sixtus rossa",
+        "product":"Weihenstephaner Weissbier non filtrata",
         "small": "3,00",
         "medium": "4,50"
     }
