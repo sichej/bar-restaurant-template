@@ -465,10 +465,6 @@ var bottleBeers = [
         "price": "3,00"
     },
     {
-        "product":"Forst Sixtus rossa",
-        "price":"3,00"
-    },
-    {
         "product":"Beck's",
         "price": "3,00"
     },
@@ -479,6 +475,10 @@ var bottleBeers = [
     {
         "product":"Corona",
         "price": "3,50"
+    },
+    {
+        "product":"Forst Sixtus rossa",
+        "price":"4,00"
     },
     {
         "product":"Ceres",
@@ -497,7 +497,7 @@ var beers = [
         "medium": "4,50"
     },
     {
-        "product":"Weihenstephaner Weissbier non filtrata",
+        "product":"Weihenstephaner Weissbier",
         "small": "3,00",
         "medium": "4,50"
     }
