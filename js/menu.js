@@ -837,7 +837,7 @@ document.getElementById("menu-dishes").innerHTML += `<div class='menu-item'><p i
 * hamburger menu viewer
 */
 for( i = 0; i < hamburger.length; i++){
-    //console.log(burger[i]);
+    //console.log(haburger[i]);
     var str = `<div class='menu-item'><a id='pname'>${hamburger[i].product}:</a><a id='pprice'>${euro + hamburger[i].price}</a><p id='pingridients'>${hamburger[i].ingridients}</p></div>`;
     document.getElementById("menu-hamburger").innerHTML += str;
 }
