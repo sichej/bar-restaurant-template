@@ -782,6 +782,7 @@ var txtAdd = 'per ogni variazione in aggiunta +0,50 &#8364 ';
 var txtCont = 'Contorno a scelta: patate al forno | verdure grigliate';
 var txtMac = 'calice macchiato +0,50 &#8364 ';
 var txtChoise = "Serviti con contoro a scelta fra: patate al forno | verdure grigliate | crocchette di patate";
+var txtDesc = "Hamburger di manzo da 200g"
 
 /*
 * caffeteria menu viewer
@@ -836,6 +837,7 @@ document.getElementById("menu-dishes").innerHTML += `<div class='menu-item'><p i
 /*
 * hamburger menu viewer
 */
+document.getElementById("menu-hamburger").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtDesc}</p></div>`;
 for( i = 0; i < hamburger.length; i++){
     //console.log(haburger[i]);
     var str = `<div class='menu-item'><a id='pname'>${hamburger[i].product}:</a><a id='pprice'>${euro + hamburger[i].price}</a><p id='pingridients'>${hamburger[i].ingridients}</p></div>`;
