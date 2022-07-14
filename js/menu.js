@@ -96,8 +96,12 @@ var caff = [
         "price": "2,00"
     },
     {
-        "product":"Crema Caffe (estiva)",
+        "product":"Crema Caffe piccola (estiva)",
         "price": "2,50"
+    },
+    {
+        "product":"Crema Caffe grande (estiva)",
+        "price": "3,20"
     },
     {
         "product":"Tea caldo classico",
@@ -160,7 +164,7 @@ var saltyBreakfast = [
     },
     {
         "product":"Erbazzone",
-        "price": "2,50",
+        "price": "3,00",
         "ingridients":""
     }
     
@@ -215,11 +219,7 @@ var beverage = [
         "price": "1,20"
     },
     {
-        "product":"Estathe lattina pesca/limone",
-        "price": "2,50"
-    },
-    {
-        "product":"The in bottiglia pesca/limone",
+        "product":"Estathe in boccetto pesca/limone",
         "price": "2,50"
     },
     {
@@ -429,7 +429,7 @@ var dishes = [
     },
     {
         "product":"Madrid",
-        "price": "8,50",
+        "price": "9,00",
         "ingridients": "cotoletta milanese | contorno a scelta"
     },
     {
@@ -546,11 +546,6 @@ var wine = [
         "product":"Lambrusco",
         "price": "14,00",
         "glass": "2,50"
-    },
-    {
-        "product":"Rosso fermo",
-        "price": "24,00",
-        "glass": "4,00"
     }
 ]
 
@@ -589,11 +584,6 @@ var cocktail = [
         "product":"Gin Tonic / Lemon",
         "price": "6,00",
         "ingridients":"bombey | acqua tonica / lemon soda"
-    },
-    {
-        "product":"Gin Tonic / Lemon",
-        "price": "6,00",
-        "ingridients":"gordon's | acqua tonica / lemon soda"
     },
     {
         "product":"Vodka Tonic",
