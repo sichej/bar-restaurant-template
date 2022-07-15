@@ -220,7 +220,7 @@ var beverage = [
     },
     {
         "product":"Estathe in boccetto pesca/limone",
-        "price": "2,50"
+        "price": "3,00"
     },
     {
         "product":"Lemon Soda",
