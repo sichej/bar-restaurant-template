@@ -473,7 +473,7 @@ var salad = [
     {
         "product":"Dubai",
         "price": "9,00",
-        "ingridients": "Insalata | rucola | valeriana | patate al forno | crudo | pomodorini | noci | salsa capricciosa"
+        "ingridients": "Insalata | rucola | patate al forno | crudo | pomodorini | noci | salsa capricciosa"
     }
 ]
 
