@@ -339,7 +339,7 @@ var burger = [
         "ingridients": "bresaola | patate alla paprika | fontina | salsa tartara"
     },
     {
-        "product":"Citta del Messico",
+        "product":"Città del Messico",
         "price": "6,50",
         "ingridients": "salame di Felino | scamorza | salsa The Cups"
     },
@@ -372,6 +372,11 @@ var burger = [
         "product":"Dublino",
         "price": "7,50",
         "ingridients": "pesto di cavallo | zucchine grigliate | salsa tartara"
+    },
+    {
+        "product":"Tokyo",
+        "price": "7,50",
+        "ingridients": "pesto di cavallo | brie | cipolle carammellate | salsa al radicchio"
     }
 ]
 
@@ -440,7 +445,7 @@ var dishes = [
     {
         "product":"Santiago",
         "price": "9,00",
-        "ingridients": "fesa di tacchino | alici rizzoli | mix di verdure miste"
+        "ingridients": "fesa di tacchino | alici rizzoli | verdure grigliate"
     },
     {
         "product":"Ginevra",
@@ -468,7 +473,7 @@ var salad = [
     {
         "product":"Hawaii",
         "price": "9,00",
-        "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea"
+        "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea in agrodolce"
     },
     {
         "product":"Dubai",
