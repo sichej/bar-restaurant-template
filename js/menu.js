@@ -48,6 +48,10 @@ var caff = [
         "price": "1,40"
     },
     {
+        "product":"Macchiatone di soia",
+        "price": "1,40"
+    },
+    {
         "product":"Cappuccino",
         "price": "1,80"
     },
@@ -113,6 +117,10 @@ var caff = [
     },
     {
         "product":"Tea caldo al limone",
+        "price": "2,00"
+    },
+    {
+        "product":"Tea caldo al limone e zenzero",
         "price": "2,00"
     },
     {
@@ -212,10 +220,6 @@ var beverage = [
     },
     {
         "product":"Estathe zero limone",
-        "price": "1,50"
-    },
-    {
-        "product":"Estathe deteinato limone",
         "price": "1,50"
     },
     {
