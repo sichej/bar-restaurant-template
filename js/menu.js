@@ -37,19 +37,19 @@ var caff = [
     },
     {
         "product":"Ginseng/orzo piccolo",
-        "price": "1,30"
+        "price": "1,50"
     },
     {
         "product":"Ginseng/orzo grande",
-        "price": "1,60"
+        "price": "1,80"
     },
     {
         "product":"Macchiatone",
-        "price": "1,20"
+        "price": "1,40"
     },
     {
         "product":"Cappuccino",
-        "price": "1,60"
+        "price": "1,80"
     },
     {
         "product":"Cappuccino soia",
@@ -57,7 +57,7 @@ var caff = [
     },
     {
         "product":"Cappuccino al Ginseng/orzo",
-        "price": "1,80"
+        "price": "2,20"
     },
     {
         "product":"Cioccolata calda",
@@ -69,27 +69,27 @@ var caff = [
     },
     {
         "product":"Latte bianco",
-        "price": "1,20"
+        "price": "1,40"
     },
     {
         "product":"Latte bianco di soia",
-        "price": "1,30"
+        "price": "1,40"
     },
     {
         "product":"Latte macchiato",
-        "price": "2,00"
-    },
-    {
-        "product":"Latte macchiato soia",
         "price": "2,20"
     },
     {
+        "product":"Latte macchiato soia",
+        "price": "2,40"
+    },
+    {
         "product":"Latte macchiato Ginseng/orzo",
-        "price": "2,00"
+        "price": "2,40"
     },
     {
         "product":"Schiumetta di latte",
-        "price": "0,50"
+        "price": "0,70"
     },
     {
         "product":"Marocchino",
@@ -129,37 +129,33 @@ var caff = [
     },
     {
         "product":"Brioches",
+        "price": "1,40"
+    },
+    {
+        "product":"Rosa del deserto",
         "price": "1,20"
-    },
-    {
-        "product":"Muffin al cioccolato",
-        "price": "2,50"
-    },
-    {
-        "product":"Rosa del deserto al cioccolato",
-        "price": "1,00"
     }
 ]
 
 var saltyBreakfast = [
     {
         "product":"Paninetto al latte",
-        "price": "1,50",
+        "price": "1,70",
         "ingridients":"cotto | crudo | salame"
     },
     {
         "product":"Pizzetta",
-        "price": "1,50",
+        "price": "1,80",
         "ingridients":""
     },
     {
         "product":"Focaccina",
-        "price": "2,00",
+        "price": "2,20",
         "ingridients":"cotto | crudo | salame"
     },
     {
         "product":"Brioches salata",
-        "price": "2,50",
+        "price": "2,70",
         "ingridients":"cotto | crudo"
     },
     {
@@ -196,27 +192,31 @@ var specCof = [
 var beverage = [
     {
         "product":"Acqua 50cl",
-        "price": "1,00"
+        "price": "1,20"
     },
     {
         "product":"Acqua 1L",
         "price": "2,00"
     },
     {
+        "product":"Acqua 0.75L",
+        "price": "1,20"
+    },
+    {
         "product":"Spremuta arancia/pompelmo rosa",
-        "price": "3,00"
+        "price": "4,00"
     },
     {
         "product":"Estathe brick pesca/limone",
-        "price": "1,20"
+        "price": "1,50"
     },
     {
         "product":"Estathe zero limone",
-        "price": "1,20"
+        "price": "1,50"
     },
     {
         "product":"Estathe deteinato limone",
-        "price": "1,20"
+        "price": "1,50"
     },
     {
         "product":"Estathe in boccetto pesca/limone",
