@@ -57,7 +57,7 @@ var caff = [
     },
     {
         "product":"Cappuccino soia",
-        "price": "2,00"
+        "price": "2,20"
     },
     {
         "product":"Cappuccino al Ginseng/orzo",
@@ -77,7 +77,7 @@ var caff = [
     },
     {
         "product":"Latte bianco di soia",
-        "price": "1,40"
+        "price": "1,60"
     },
     {
         "product":"Latte macchiato",
@@ -200,7 +200,7 @@ var specCof = [
 var beverage = [
     {
         "product":"Acqua 50cl",
-        "price": "1,20"
+        "price": "1,00"
     },
     {
         "product":"Acqua 1L",
@@ -208,6 +208,10 @@ var beverage = [
     },
     {
         "product":"Acqua 0.75L",
+        "price": "1,00"
+    },
+    {
+        "product":"Acqua microfiltrata 0.75L",
         "price": "1,20"
     },
     {
