@@ -49,7 +49,7 @@ var caff = [
     },
     {
         "product":"Macchiatone di soia",
-        "price": "1,40"
+        "price": "1,50"
     },
     {
         "product":"Cappuccino",
@@ -97,7 +97,7 @@ var caff = [
     },
     {
         "product":"Marocchino",
-        "price": "2,00"
+        "price": "2,20"
     },
     {
         "product":"Crema Caffe piccola (estiva)",
@@ -207,12 +207,8 @@ var beverage = [
         "price": "2,00"
     },
     {
-        "product":"Acqua 0.75L",
-        "price": "1,00"
-    },
-    {
         "product":"Acqua microfiltrata 0.75L",
-        "price": "1,20"
+        "price": "1,00"
     },
     {
         "product":"Spremuta arancia/pompelmo rosa",
