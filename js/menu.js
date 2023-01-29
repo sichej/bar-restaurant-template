@@ -419,22 +419,22 @@ var pinsa = [
         "ingridients": "base | 3 ingredienti a scelta"
     },
     {
-        "product":"Classic Burger",
+        "product":"Parma",
         "price": "11,00",
         "ingridients": "philadelphia | crudo | senapata di fichi"
     },
     {
-        "product":"Double Cheeseburger",
+        "product":"Bologna",
         "price": "11,00",
         "ingridients": "mortadella | stracciatella | granella di pistacchi "
     },
     {
-        "product":"The Cups Burger",
+        "product":"Zola",
         "price": "11,00",
         "ingridients": "pate di olive | gorgonzola | cipolle caramellate"
     },
     {
-        "product":"Black Sea Burger",
+        "product":"Alba",
         "price": "11,00",
         "ingridients": "burrata | guacamole | rucola | tartufo "
     }
