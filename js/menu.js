@@ -36,6 +36,18 @@ var caff = [
         "price": "3,00"
     },
     {
+        "product":"Cappuccino",
+        "price": "1,80"
+    },
+    {
+        "product":"Cappuccino soia",
+        "price": "2,20"
+    },
+    {
+        "product":"Cappuccino al Ginseng/orzo",
+        "price": "2,20"
+    },
+    {
         "product":"Ginseng/orzo piccolo",
         "price": "1,50"
     },
@@ -50,18 +62,6 @@ var caff = [
     {
         "product":"Macchiatone di soia",
         "price": "1,50"
-    },
-    {
-        "product":"Cappuccino",
-        "price": "1,80"
-    },
-    {
-        "product":"Cappuccino soia",
-        "price": "2,20"
-    },
-    {
-        "product":"Cappuccino al Ginseng/orzo",
-        "price": "2,20"
     },
     {
         "product":"Cioccolata calda",
@@ -100,11 +100,11 @@ var caff = [
         "price": "2,20"
     },
     {
-        "product":"Crema Caffe piccola (estiva)",
+        "product":"Crema Caffe piccola",
         "price": "2,50"
     },
     {
-        "product":"Crema Caffe grande (estiva)",
+        "product":"Crema Caffe grande",
         "price": "3,20"
     },
     {
@@ -128,11 +128,19 @@ var caff = [
         "price": "2,00"
     },
     {
-        "product":"Tea caldo deteinato al limone",
+        "product":"Tea caldo deteinato",
         "price": "2,00"
     },
     {
         "product":"Camomilla",
+        "price": "2,00"
+    },
+    {
+        "product":"Infuso al melograno e lampone",
+        "price": "2,00"
+    },
+    {
+        "product":"infuso alla ciliegia e cannella",
         "price": "2,00"
     },
     {
@@ -149,7 +157,7 @@ var saltyBreakfast = [
     {
         "product":"Paninetto al latte",
         "price": "1,70",
-        "ingridients":"cotto | crudo | salame"
+        "ingridients":"cotto | crudo | salame | mortadella"
     },
     {
         "product":"Pizzetta",
@@ -159,7 +167,7 @@ var saltyBreakfast = [
     {
         "product":"Focaccina",
         "price": "2,20",
-        "ingridients":"cotto | crudo | salame"
+        "ingridients":"cotto | crudo | salame | mortadella"
     },
     {
         "product":"Brioches salata",
@@ -203,12 +211,12 @@ var beverage = [
         "price": "1,00"
     },
     {
-        "product":"Acqua 1L",
-        "price": "2,00"
-    },
-    {
         "product":"Acqua microfiltrata 0.75L",
         "price": "1,00"
+    },
+    {
+        "product":"Acqua 1L",
+        "price": "2,00"
     },
     {
         "product":"Spremuta arancia/pompelmo rosa",
@@ -240,10 +248,6 @@ var beverage = [
     },
     {
         "product":"Fanta",
-        "price": "3,00"
-    },
-    {
-        "product":"Sprite",
         "price": "3,00"
     },
     {
