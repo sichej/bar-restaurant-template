@@ -419,24 +419,24 @@ var pinsa = [
         "ingridients": "base | 3 ingredienti a scelta"
     },
     {
-        "product":"Parma",
+        "product":"Parma Gourmet",
         "price": "11,00",
-        "ingridients": "philadelphia | crudo | senapata di fichi"
+        "ingridients": "crudo | philadelphia | senapata di fichi"
     },
     {
-        "product":"Bologna",
+        "product":"Bologna Gourmet",
         "price": "11,00",
         "ingridients": "mortadella | stracciatella | granella di pistacchi "
     },
     {
-        "product":"Zola",
+        "product":"Zola Gourmet",
         "price": "11,00",
-        "ingridients": "pate di olive | gorgonzola | cipolle caramellate"
+        "ingridients": "gorgonzola | pate di olive | cipolle caramellate"
     },
     {
-        "product":"Alba",
+        "product":"Andria Gourmet",
         "price": "11,00",
-        "ingridients": "burrata | guacamole | rucola | tartufo "
+        "ingridients": "burrata | tartufo | guacamole | rucola"
     }
 ]
 
