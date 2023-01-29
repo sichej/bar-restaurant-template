@@ -399,6 +399,11 @@ var hamburger = [
         "product":"The Cups Burger",
         "price": "13,00",
         "ingridients": "hamburger | brie | rucola | cipolle caramellate | salsa tartara"
+    },
+    {
+        "product":"Fish Burger",
+        "price": "14,00",
+        "ingridients": "salmone cotto 150g | rucola | guacamole | pomodoro "
     }
 ]
 
