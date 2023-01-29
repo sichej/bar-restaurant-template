@@ -150,6 +150,10 @@ var caff = [
     {
         "product":"Rosa del deserto",
         "price": "1,20"
+    },
+    {
+        "product":"Muffin al cioccolato",
+        "price": "2,50"
     }
 ]
 
@@ -202,6 +206,11 @@ var specCof = [
         "product":"Galak 2.0",
         "price": "4,00",
         "ingridients":"cioccolato bianco | caffe | panna | cacao"
+    },
+    {
+        "product":"Galak 2.0",
+        "price": "4,00",
+        "ingridients":"cioccolato fondente | crema di limone | caffe | panna"
     }
 ]
 
