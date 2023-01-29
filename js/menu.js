@@ -216,8 +216,8 @@ var specCof = [
 
 var beverage = [
     {
-        "product":"Acqua 50cl",
-        "price": "1,00"
+        "product":"Acqua 0.5L",
+        "price": "1,20"
     },
     {
         "product":"Acqua microfiltrata 0.75L",
@@ -296,35 +296,35 @@ var beverage = [
 var juice = [
     {
         "product":"Pesca",
-        "price": "2,50"
+        "price": "2,70"
     },
     {
         "product":"ACE",
-        "price": "2,50"
+        "price": "2,70"
     },
     {
         "product":"Ananas",
-        "price": "2,50"
+        "price": "2,70"
     },
     {
         "product":"Mirtillo",
-        "price": "2,50"
+        "price": "2,70"
     },
     {
         "product":"Albicocca",
-        "price": "2,50"
+        "price": "2,70"
     },
     {
         "product":"Pompelmo",
-        "price": "2,50"
+        "price": "2,70"
     },
     {
         "product":"Pera",
-        "price": "2,50"
+        "price": "2,70"
     },
     {
         "product":"Arancia",
-        "price": "2,50"
+        "price": "2,70"
     }
     
 ]
