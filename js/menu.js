@@ -401,9 +401,9 @@ var hamburger = [
         "ingridients": "hamburger | brie | rucola | cipolle caramellate | salsa tartara"
     },
     {
-        "product":"Sea Burger",
+        "product":"Black Sea Burger",
         "price": "13,00",
-        "ingridients": "salmone cotto 150g | rucola | guacamole | pomodoro "
+        "ingridients": "pane al carbone | salmone cotto 150g | rucola | guacamole | pomodoro "
     }
 ]
 
