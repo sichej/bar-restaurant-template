@@ -208,7 +208,7 @@ var specCof = [
         "ingridients":"cioccolato bianco | caffe | panna | cacao"
     },
     {
-        "product":"Galak 2.0",
+        "product":"Black Pilo",
         "price": "4,00",
         "ingridients":"cioccolato fondente | crema di limone | caffe | panna"
     }
