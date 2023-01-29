@@ -890,7 +890,7 @@ document.getElementById("menu-pinsa").innerHTML += `<div class='menu-item'><p id
 for( i = 0; i < pinsa.length; i++){
     //console.log(haburger[i]);
     var str = `<div class='menu-item'><a id='pname'>${pinsa[i].product}:</a><a id='pprice'>${euro + pinsa[i].price}</a><p id='pingridients'>${pinsa[i].ingridients}</p></div>`;
-    document.getElementById("menu-hamburger").innerHTML += str;
+    document.getElementById("menu-pinsa").innerHTML += str;
 }
 
 /*
