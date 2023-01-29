@@ -407,6 +407,39 @@ var hamburger = [
     }
 ]
 
+var pinsa = [
+    {
+        "product":"Pinsa Margherita",
+        "price": "6,50",
+        "ingridients": "pomodoro | mozzarella"
+    },
+    {
+        "product":"Pinsa Farcita",
+        "price": "8,00",
+        "ingridients": "base | 3 ingredienti a scelta"
+    },
+    {
+        "product":"Classic Burger",
+        "price": "11,00",
+        "ingridients": "philadelphia | crudo | senapata di fichi"
+    },
+    {
+        "product":"Double Cheeseburger",
+        "price": "11,00",
+        "ingridients": "mortadella | stracciatella | granella di pistacchi "
+    },
+    {
+        "product":"The Cups Burger",
+        "price": "11,00",
+        "ingridients": "pate di olive | gorgonzola | cipolle caramellate"
+    },
+    {
+        "product":"Black Sea Burger",
+        "price": "11,00",
+        "ingridients": "burrata | guacamole | rucola | tartufo "
+    }
+]
+
 var piadine = [
     {
         "product":"Italia",
@@ -786,7 +819,8 @@ var txtAdd = 'per ogni variazione in aggiunta +0,50 &#8364 ';
 var txtCont = 'Contorno a scelta: patate al forno | verdure grigliate';
 var txtMac = 'calice macchiato +0,50 &#8364 ';
 var txtChoise = "Serviti con contoro a scelta fra: patate al forno | verdure grigliate";
-var txtDesc = "Hamburger di manzo da 200g (solo a pranzo)"
+var txtDesc = "Hamburger di manzo da 200g";
+var txtPinsa = "Scegli la base fra: bianca | rossa | margherita";
 
 /*
 * caffeteria menu viewer
@@ -848,6 +882,16 @@ for( i = 0; i < hamburger.length; i++){
     document.getElementById("menu-hamburger").innerHTML += str;
 }
 document.getElementById("menu-hamburger").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtChoise}</p></div>`;
+
+/*
+* pinsa menu viewer
+*/
+document.getElementById("menu-pinsa").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtPinsa}</p></div>`;
+for( i = 0; i < pinsa.length; i++){
+    //console.log(haburger[i]);
+    var str = `<div class='menu-item'><a id='pname'>${pinsa[i].product}:</a><a id='pprice'>${euro + pinsa[i].price}</a><p id='pingridients'>${pinsa[i].ingridients}</p></div>`;
+    document.getElementById("menu-hamburger").innerHTML += str;
+}
 
 /*
 * burger menu viewer
