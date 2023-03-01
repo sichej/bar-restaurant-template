@@ -896,6 +896,7 @@ document.getElementById("menu-dishes").innerHTML += `<div class='menu-item'><p i
 */
 document.getElementById("menu-hamburger").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtDesc}</p></div>`;
 for( i = 0; i < hamburger.length; i++){
+    // personal change to make the black sea burger yellow
     if (hamburger[i].product === "Black Sea Burger")
         var str = `<div class='menu-item'><a id='pname' style="color: yellow;">${hamburger[i].product}:</a><a id='pprice'>${euro + hamburger[i].price}</a><p id='pingridients'>${hamburger[i].ingridients}</p></div>`;
     else
