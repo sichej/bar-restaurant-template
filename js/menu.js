@@ -543,10 +543,6 @@ var bottleBeers = [
         "price": "3,00"
     },
     {
-        "product":"Beck's",
-        "price": "3,00"
-    },
-    {
         "product":"Ichnusa non Filtrata",
         "price": "3,00"
     },
@@ -563,8 +559,8 @@ var bottleBeers = [
         "price": "4,00"
     },   
     {
-        "product":"Artigian art Caffe",
-        "price": "4,00"
+        "product":"Artigianale Breewdog",
+        "price": "4,50"
     }
 ]
 
