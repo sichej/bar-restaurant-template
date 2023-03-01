@@ -575,7 +575,7 @@ var beers = [
         "medium": "4,50"
     },
     {
-        "product":"Weihenstephaner Weissbier",
+        "product":"Weihnachtsbier Doppio Malto",
         "small": "3,00",
         "medium": "4,50"
     }
@@ -583,8 +583,8 @@ var beers = [
 
 var wine = [
     {
-        "product":"Malvasia",
-        "price": "14,00",
+        "product":"Malvasia BIO Caslen'na",
+        "price": "15,00",
         "glass": "2,50"
     },
     {
@@ -603,9 +603,19 @@ var wine = [
         "glass": "4,00"
     },
     {
-        "product":"Lambrusco",
-        "price": "14,00",
+        "product":"Lambrusco BIO Caslen'na",
+        "price": "15,00",
         "glass": "2,50"
+    },
+    {
+        "product":"Barbera BIO Caslen'na",
+        "price": "15,00",
+        "glass": "2,50"
+    },
+    {
+        "product":"Valpolicella",
+        "price": "24,00",
+        "glass": "4,00"
     }
 ]
 
