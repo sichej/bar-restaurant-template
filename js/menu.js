@@ -642,7 +642,7 @@ var cocktail = [
         "ingridients":"prosecco | sciroppo di sambuco | soda"
     },
     {
-        "product":"Gin Tonic / Lemon",
+        "product":"Hendrick's Gin Tonic / Lemon",
         "price": "8,00",
         "ingridients":"hendrick's | acqua tonica / lemon soda"
     },
