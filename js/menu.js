@@ -486,14 +486,14 @@ var primi = [
         "bis":"bis",
         "tris":"tris"
     },
-    {
-        "product":"Tagliatelle 4 formaggi e tartufo",
-        "price": "9,00"
-    },
-    {
-        "product":"Pasta al pomodoro",
-        "price": "9,00"
-    }
+    // {
+    //     "product":"Tagliatelle 4 formaggi e tartufo",
+    //     "price": "9,00"
+    // },
+    // {
+    //     "product":"Pasta al pomodoro",
+    //     "price": "9,00"
+    // }
 ]
 
 var dishes = [
@@ -907,10 +907,10 @@ for( i = 0; i < juice.length; i++){
 */
 for( i = 0; i < primi.length; i++){
     // style change for tortelli
-    if (primi[i].product == "Tortelli")
+    //if (primi[i].product == "Tortelli")
     var str = `<div class='menu-item'><a id='pname'>${primi[i].product}:</a><a id='pprice'>${euro + primi[i].price}</a><br><a class='marg-low'>erbetta</a><br><a class='marg-low'>zucca</a><br><a class='marg-low'>patate</a><br><a class='marg-low'>bis</a><br><a class='marg-low'>tris</a></div>`;
-    else
-        var str = `<div class='menu-item'><a id='pname'>${primi[i].product}</a><a id='pprice'>${euro + primi[i].price}</a></div>`;
+    // else
+    //     var str = `<div class='menu-item'><a id='pname'>${primi[i].product}</a><a id='pprice'>${euro + primi[i].price}</a></div>`;
     document.getElementById("menu-primi").innerHTML += str;
 }
 
