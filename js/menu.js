@@ -647,6 +647,16 @@ var cocktail = [
         "ingridients":"gin | camparisoda"
     },
     {
+        "product":"The Cups",
+        "price": "8,00",
+        "ingridients":"vodka liscia | gin | passoa | succo arancia | polpa passion fruit"
+    },
+    {
+        "product":"Blue Nights",
+        "price": "9,00",
+        "ingridients":"blue curagao | rum bianco pampero | gin | sweet s. | lemon soda"
+    },
+    {
         "product":"Aperol Spritz",
         "price": "6,00",
         "ingridients": "prosecco | aperol | soda"
@@ -662,14 +672,29 @@ var cocktail = [
         "ingridients":"prosecco | sciroppo di sambuco | soda"
     },
     {
-        "product":"Hendrick's Gin Tonic / Lemon",
-        "price": "8,00",
-        "ingridients":"hendrick's | acqua tonica / lemon soda"
+        "product":"Rosa Spritz",
+        "price": "7,00",
+        "ingridients":"prosecco | liquore alle rose | soda"
     },
     {
         "product":"Gin Tonic / Lemon",
         "price": "6,00",
         "ingridients":"bombey | acqua tonica / lemon soda"
+    },
+    {
+        "product":"Bombay Gin Tonic / Lemon",
+        "price": "8,00",
+        "ingridients":"bombay | acqua tonica / lemon soda"
+    },
+    {
+        "product":"Hendrick's Gin Tonic / Lemon",
+        "price": "8,00",
+        "ingridients":"hendrick's | acqua tonica / lemon soda"
+    },
+    {
+        "product":"Bulldog Gin Tonic / Lemon",
+        "price": "8,00",
+        "ingridients":"bulldog | acqua tonica / lemon soda"
     },
     {
         "product":"Vodka Tonic",
@@ -717,6 +742,11 @@ var cocktail = [
         "ingridients":"rum bianco | sweet s. | lime | menta | zucchero di canna"
     },
     {
+        "product":"Mojito Passion",
+        "price": "8,00",
+        "ingridients":"passoa | sweet s. | polpa passion fruit | menta | soda"
+    },
+    {
         "product":"Moscow Mule",
         "price": "6,00",
         "ingridients":"vodka liscia | ginger beer | lime | zenzero"
@@ -745,9 +775,14 @@ var cocktail = [
 
 var cocktailAna = [
     {
-        "product":"The Cups",
+        "product":"Green Nights",
         "price": "6,00",
-        "ingridients":"succo d'ananas | succo d'arancia | cocco"
+        "ingridients":"succo mela verde | succo ananas | sweet s. | sciroppo passion fruit"
+    },
+    {
+        "product":"Tropical",
+        "price": "6,00",
+        "ingridients":"succo d'ananas | succo d'arancia | cocco | polpa passion fruit"
     },
     {
         "product":"2.0",
