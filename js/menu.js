@@ -679,7 +679,7 @@ var cocktail = [
     {
         "product":"Gin Tonic / Lemon",
         "price": "6,00",
-        "ingridients":"bombey | acqua tonica / lemon soda"
+        "ingridients":"gordon's | acqua tonica / lemon soda"
     },
     {
         "product":"Bombay Gin Tonic / Lemon",
