@@ -693,7 +693,7 @@ var cocktail = [
     },
     {
         "product":"Bulldog Gin Tonic / Lemon",
-        "price": "8,00",
+        "price": "10,00",
         "ingridients":"bulldog | acqua tonica / lemon soda"
     },
     // {
@@ -782,7 +782,7 @@ var cocktailAna = [
     {
         "product":"Green Nights",
         "price": "6,00",
-        "ingridients":"succo mela verde | succo ananas | sweet s. | sciroppo passion fruit"
+        "ingridients":"succo mela verde | succo ananas | sweet s. | sciroppo di sambuco"
     },
     {
         "product":"Tropical",
