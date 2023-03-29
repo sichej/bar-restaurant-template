@@ -447,9 +447,9 @@ var pinsa = [
         "ingridients": "gorgonzola | pate di olive | cipolle caramellate"
     },
     {
-        "product":"Andria Gourmet",
+        "product":"Ginevra Gourmet",
         "price": "11,00",
-        "ingridients": "burrata | tartufo | guacamole | rucola"
+        "ingridients": "pesto alla genovese | stracciatella | pomodorini"
     }
 ]
 
