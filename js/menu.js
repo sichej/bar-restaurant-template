@@ -578,10 +578,10 @@ var bottleBeers = [
         "product":"Ceres",
         "price": "4,00"
     },   
-    {
-        "product":"Artigianale Breewdog",
-        "price": "4,50"
-    }
+    // {
+    //     "product":"Artigianale Breewdog",
+    //     "price": "4,50"
+    // }
 ]
 
 var beers = [
@@ -654,7 +654,7 @@ var cocktail = [
     {
         "product":"Blue Nights",
         "price": "9,00",
-        "ingridients":"blue curagao | rum bianco pampero | gin | sweet s. | lemon soda"
+        "ingridients":"blue curaçao | rum bianco pampero | gin | sweet s. | lemon soda"
     },
     {
         "product":"Aperol Spritz",
@@ -696,21 +696,21 @@ var cocktail = [
         "price": "8,00",
         "ingridients":"bulldog | acqua tonica / lemon soda"
     },
-    {
-        "product":"Vodka Tonic",
-        "price": "6,00",
-        "ingridients":"vodka liscia | acqua tonica"
-    },
+    // {
+    //     "product":"Vodka Tonic",
+    //     "price": "6,00",
+    //     "ingridients":"vodka liscia | acqua tonica"
+    // },
     {
         "product":"Vodka Lemon",
         "price": "6,00",
         "ingridients":"vodka liscia | lemon soda"
     },
-    {
-        "product":"Vodka Redbull",
-        "price": "6,00",
-        "ingridients":"vodka liscia | redbull"
-    },
+    // {
+    //     "product":"Vodka Redbull",
+    //     "price": "6,00",
+    //     "ingridients":"vodka liscia | redbull"
+    // },
     {
         "product":"Pesquito",
         "price": "6,00",
@@ -751,21 +751,21 @@ var cocktail = [
         "price": "6,00",
         "ingridients":"vodka liscia | ginger beer | lime | zenzero"
     },
-    {
-        "product":"London Mule",
-        "price": "6,00",
-        "ingridients":"gin | ginger beer | lime | zenzero"
-    },
-    {
-        "product":"Coca Montenegro",
-        "price": "6,00",
-        "ingridients":"Montenegro | coca cola"
-    },
-    {
-        "product":"Coca Malibu",
-        "price": "6,00",
-        "ingridients":"malibu | coca cola"
-    },
+    // {
+    //     "product":"London Mule",
+    //     "price": "6,00",
+    //     "ingridients":"gin | ginger beer | lime | zenzero"
+    // },
+    // {
+    //     "product":"Coca Montenegro",
+    //     "price": "6,00",
+    //     "ingridients":"Montenegro | coca cola"
+    // },
+    // {
+    //     "product":"Coca Malibu",
+    //     "price": "6,00",
+    //     "ingridients":"malibu | coca cola"
+    // },
     {
         "product":"Sex on the Beach",
         "price": "6,00",
@@ -784,21 +784,21 @@ var cocktailAna = [
         "price": "6,00",
         "ingridients":"succo d'ananas | succo d'arancia | cocco | polpa passion fruit"
     },
-    {
-        "product":"2.0",
-        "price": "6,00",
-        "ingridients":"succo d'ananas | succo d'arancia | succo di limone | melograno"
-    },
+    // {
+    //     "product":"2.0",
+    //     "price": "6,00",
+    //     "ingridients":"succo d'ananas | succo d'arancia | succo di limone | melograno"
+    // },
     {
         "product":"Light",
         "price": "6,00",
         "ingridients":"succo di pompelmo | succo d'ananas | melograno"
     },
-    {
-        "product":"Virgin",
-        "price": "6,00",
-        "ingridients":"succo d'ananas | succo d'arancia | succo alla pesca | menta"
-    }
+    // {
+    //     "product":"Virgin",
+    //     "price": "6,00",
+    //     "ingridients":"succo d'ananas | succo d'arancia | succo alla pesca | menta"
+    // }
 ]
 
 var amari = [
