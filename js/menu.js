@@ -770,7 +770,12 @@ var cocktail = [
         "product":"Sex on the Beach",
         "price": "6,00",
         "ingridients":"vodka liscia | vodka pesca | succo al mirtillo | succo d'arancia"
-    }
+    },
+    {
+        "product":"Long Island",
+        "price": "6,00",
+        "ingridients":"gin | rum binaco | vodka liscia | triple sec | sweet s. | coca cola"
+    },
 ]
 
 var cocktailAna = [
