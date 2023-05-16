@@ -447,7 +447,7 @@ var pinsa = [
         "ingridients": "gorgonzola | pate di olive | cipolle caramellate"
     },
     {
-        "product":"Ginevra Gourmet",
+        "product":"Genova Gourmet",
         "price": "11,00",
         "ingridients": "pesto alla genovese | stracciatella | pomodorini"
     }
@@ -548,7 +548,7 @@ var salad = [
     {
         "product":"Hawaii",
         "price": "9,00",
-        "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea in agrodolce"
+        "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea caramellata"
     },
     {
         "product":"Dubai",
@@ -649,7 +649,7 @@ var cocktail = [
     {
         "product":"The Cups",
         "price": "8,00",
-        "ingridients":"vodka liscia | gin | passoa | succo arancia | polpa passion fruit"
+        "ingridients":"vodka liscia | gin | passoa | malibu | succo arancia | polpa passion fruit"
     },
     {
         "product":"Blue Nights",
@@ -683,34 +683,29 @@ var cocktail = [
     },
     {
         "product":"Bombay Gin Tonic / Lemon",
-        "price": "6,00",
+        "price": "7,00",
         "ingridients":"bombay | acqua tonica / lemon soda"
     },
     {
-        "product":"Hendrick's Gin Tonic / Lemon",
+        "product":"Bulldog Gin Tonic / Lemon",
         "price": "8,00",
+        "ingridients":"bulldog | acqua tonica / lemon soda"
+    },
+    {
+        "product":"Hendrick's Gin Tonic / Lemon",
+        "price": "9,00",
         "ingridients":"hendrick's | acqua tonica / lemon soda"
     },
     {
-        "product":"Bulldog Gin Tonic / Lemon",
+        "product":"Nordes Gin Tonic / Lemon",
         "price": "10,00",
-        "ingridients":"bulldog | acqua tonica / lemon soda"
+        "ingridients":"nordes | acqua tonica / lemon soda"
     },
-    // {
-    //     "product":"Vodka Tonic",
-    //     "price": "6,00",
-    //     "ingridients":"vodka liscia | acqua tonica"
-    // },
     {
         "product":"Vodka Lemon",
         "price": "6,00",
         "ingridients":"vodka liscia | lemon soda"
     },
-    // {
-    //     "product":"Vodka Redbull",
-    //     "price": "6,00",
-    //     "ingridients":"vodka liscia | redbull"
-    // },
     {
         "product":"Pesquito",
         "price": "6,00",
@@ -751,25 +746,25 @@ var cocktail = [
         "price": "6,00",
         "ingridients":"vodka liscia | ginger beer | lime | zenzero"
     },
-    // {
-    //     "product":"London Mule",
-    //     "price": "6,00",
-    //     "ingridients":"gin | ginger beer | lime | zenzero"
-    // },
-    // {
-    //     "product":"Coca Montenegro",
-    //     "price": "6,00",
-    //     "ingridients":"Montenegro | coca cola"
-    // },
-    // {
-    //     "product":"Coca Malibu",
-    //     "price": "6,00",
-    //     "ingridients":"malibu | coca cola"
-    // },
     {
         "product":"Sex on the Beach",
         "price": "6,00",
-        "ingridients":"vodka liscia | vodka pesca | succo al mirtillo | succo d'arancia"
+        "ingridients":"vodka liscia | vodka pesca | sciroppo alla fragola | sciroppo all'arancia | succo all'ananas"
+    },
+    {
+        "product":"Kiss on the Beach",
+        "price": "6,00",
+        "ingridients":"triple sec | vodka liscia | passoa | succo al mirtillo | succo all'ananas | polpa al mango | polpa passion fruit"
+    },
+    {
+        "product":"Japanaise",
+        "price": "7,00",
+        "ingridients":"midori | vodka liscia | triple sec | rum bianco | sweet s. | lemon soda"
+    },
+    {
+        "product":"Midori Sour",
+        "price": "7,00",
+        "ingridients":"midori | sweet s. | soda"
     },
     {
         "product":"Long Island",
