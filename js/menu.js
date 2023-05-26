@@ -614,7 +614,7 @@ var wine = [
         "glass": "6,00"
     },
     {
-        "product":"Gewurtztraminer",
+        "product":"Falanghina",
         "price": "24,00",
         "glass": "4,00"
     },
