@@ -572,7 +572,7 @@ var bottleBeers = [
     },
     {
         "product":"Forst Sixtus rossa",
-        "price":"4,00"
+        "price":"4,50"
     },
     {
         "product":"Ceres",
@@ -617,16 +617,6 @@ var wine = [
         "product":"Falanghina",
         "price": "24,00",
         "glass": "4,00"
-    },
-    {
-        "product":"Lambrusco BIO Caslen'na",
-        "price": "15,00",
-        "glass": "2,50"
-    },
-    {
-        "product":"Barbera BIO Caslen'na",
-        "price": "15,00",
-        "glass": "2,50"
     },
     {
         "product":"Valpolicella",
@@ -700,6 +690,11 @@ var cocktail = [
         "product":"Nordes Gin Tonic / Lemon",
         "price": "10,00",
         "ingridients":"nordes | acqua tonica / lemon soda"
+    },
+    {
+        "product":"Malfy Rosa Gin Tonic / Lemon",
+        "price": "10,00",
+        "ingridients":"malfy rosa | acqua tonica / lemon soda"
     },
     {
         "product":"Vodka Lemon",
