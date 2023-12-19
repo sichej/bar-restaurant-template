@@ -136,12 +136,8 @@ var caff = [
         "price": "2,00"
     },
     {
-        "product":"Infuso al melograno e lampone",
-        "price": "2,00"
-    },
-    {
-        "product":"infuso alla ciliegia e cannella",
-        "price": "2,00"
+        "product":"Tisana Pukka",
+        "price": "2,50"
     },
     {
         "product":"Brioches",
@@ -153,6 +149,10 @@ var caff = [
     },
     {
         "product":"Muffin al cioccolato",
+        "price": "2,50"
+    },
+    {
+        "product":"Muffin red velvet",
         "price": "2,50"
     }
 ]
@@ -261,6 +261,10 @@ var beverage = [
     },
     {
         "product":"Acqua Tonica",
+        "price": "3,00"
+    },
+    {
+        "product":"Acqua Tonica al limone",
         "price": "3,00"
     },
     {
@@ -444,7 +448,7 @@ var pinsa = [
     {
         "product":"Zola Gourmet",
         "price": "11,00",
-        "ingridients": "gorgonzola | pate di olive | cipolle caramellate"
+        "ingridients": "gorgonzola | speck | noci"
     },
     {
         "product":"Genova Gourmet",
@@ -486,10 +490,10 @@ var primi = [
         "bis":"bis",
         "tris":"tris"
     },
-    // {
-    //     "product":"Tagliatelle 4 formaggi e tartufo",
-    //     "price": "9,00"
-    // },
+    {
+        "product":"Tortellini panna e prosciutto cotto",
+        "price": "10,00"
+    },
     // {
     //     "product":"Pasta al pomodoro",
     //     "price": "9,00"
@@ -548,7 +552,7 @@ var salad = [
     {
         "product":"Hawaii",
         "price": "9,00",
-        "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolla di Tropea caramellata"
+        "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolline in aceto balsamico"
     },
     {
         "product":"Dubai",
