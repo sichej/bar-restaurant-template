@@ -408,6 +408,11 @@ var hamburger = [
         "ingridients": "hamburger | insalata | pomodoro | maionese"
     },
     {
+        "product":"Dallas Burger",
+        "price": "10,00",
+        "ingridients": "panel al carbone | pulled pork | parmigiano fuso | salsa BBQ"
+    },
+    {
         "product":"Double Cheeseburger",
         "price": "12,00",
         "ingridients": "hamburger | insalata | scamorza | fontina | salsa radicchio"
@@ -491,8 +496,8 @@ var primi = [
         "tris":"tris"
     },
     {
-        "product":"Tortellini panna e prosciutto cotto",
-        "price": "10,00"
+        "product":"Risotto alla parmigiana",
+        "price": "9,00"
     },
     // {
     //     "product":"Pasta al pomodoro",
