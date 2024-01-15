@@ -896,8 +896,8 @@ var euro = "&#8364 ";
 var txtAdd = 'per ogni variazione in aggiunta +0,50 &#8364 ';
 var txtCont = 'Contorno a scelta: patate al forno | verdure grigliate';
 var txtMac = 'calice macchiato +0,50 &#8364 ';
-var txtChoise = "Serviti con contoro a scelta fra: patate al forno | verdure grigliate";
-var txtDesc = "Hamburger di manzo da 200g";
+//var txtChoise = "Serviti con contoro a scelta fra: patate al forno | verdure grigliate";
+var txtDesc = "Hamburger di manzo da 200g. Tutti gli hamburger sono serviti con patate al forno";
 var txtPinsa = "Scegli la base fra: bianca | rossa | margherita";
 
 /*
@@ -976,7 +976,7 @@ for( i = 0; i < hamburger.length; i++){
         var str = `<div class='menu-item'><a id='pname'>${hamburger[i].product}:</a><a id='pprice'>${euro + hamburger[i].price}</a><p id='pingridients'>${hamburger[i].ingridients}</p></div>`;
     document.getElementById("menu-hamburger").innerHTML += str;
 }
-document.getElementById("menu-hamburger").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtChoise}</p></div>`;
+//document.getElementById("menu-hamburger").innerHTML += `<div class='menu-item'><p id='pingridients'>${txtChoise}</p></div>`;
 
 /*
 * pinsa menu viewer
