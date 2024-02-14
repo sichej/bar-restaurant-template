@@ -501,7 +501,7 @@ var primi = [
     },
     {
         "product":"Tortelli d'erbetta",
-        "price": "9,00"
+        "price": "10,00"
     },
     // {
     //     "product":"Pasta al pomodoro",
