@@ -486,17 +486,21 @@ var piadine = [
 ]
 
 var primi = [
-    {
-        "product":"Tortelli",
-        "price": "10,00",
-        "erbetta":"erbetta",
-        "zucca":"zucca",
-        "patate":"patate",
-        "bis":"bis",
-        "tris":"tris"
-    },
+    // {
+    //     "product":"Tortelli",
+    //     "price": "10,00",
+    //     "erbetta":"erbetta",
+    //     "zucca":"zucca",
+    //     "patate":"patate",
+    //     "bis":"bis",
+    //     "tris":"tris"
+    // },
     {
         "product":"Risotto alla parmigiana",
+        "price": "9,00"
+    },
+    {
+        "product":"Tortelli d'erbetta",
         "price": "9,00"
     },
     // {
