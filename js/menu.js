@@ -182,6 +182,11 @@ var saltyBreakfast = [
         "product":"Erbazzone",
         "price": "3,00",
         "ingridients":""
+    },
+    {
+        "product":"Focaccia barese",
+        "price": "3,00",
+        "ingridients":""
     }
     
 ]
