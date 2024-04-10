@@ -1060,6 +1060,8 @@ for( i = 0; i < bottleBeers.length; i++){
 */
 for( i = 0; i < beers.length; i++){
     var str = `<div class='menu-item'><a id='pname'>${beers[i].product}:</a><br><a class='marg-low'>piccola 0.2</a><a id='pprice'>${euro + beers[i].small}</a><br><a class='marg-low'>media 0.4</a><a id='pprice'>${euro + beers[i].medium}</a></div>`;
+    if (beers[i].product === 'Birra Ospite')
+        var str = `<div class='menu-item'><a id='pname'>${beers[i].product}:</a><br><a class='marg-low'>piccola 0.3</a><a id='pprice'>${euro + beers[i].small}</a><br><a class='marg-low'>media 0.5</a><a id='pprice'>${euro + beers[i].medium}</a></div>`;
     document.getElementById("menu-beers").innerHTML += str;
 }
 
