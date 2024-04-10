@@ -606,12 +606,17 @@ var beers = [
     {
         "product":"Forst Kronen chiara",
         "small": "3,00",
-        "medium": "4,50"
+        "medium": "5,00"
     },
     {
         "product":"Weihnachtsbier Doppio Malto",
         "small": "3,00",
         "medium": "4,50"
+    },
+    {
+        "product":"Birra Ospite",
+        "small": "3,50",
+        "medium": "6,00"
     }
 ]
 
