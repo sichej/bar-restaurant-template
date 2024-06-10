@@ -241,16 +241,24 @@ var beverage = [
         "price": "1,50"
     },
     {
-        "product":"Estathe zero limone",
+        "product":"The zero limone",
         "price": "1,50"
     },
     {
-        "product":"Estathe in boccetto pesca/limone",
+        "product":"The in boccetto pesca/limone",
+        "price": "3,00"
+    },
+    {
+        "product":"The in boccetto green matcha",
         "price": "3,00"
     },
     {
         "product":"Lemon Soda",
         "price": "2,50"
+    },
+    {
+        "product":"Succo mela verde",
+        "price": "2,70"
     },
     {
         "product":"CocaCola",
@@ -285,7 +293,7 @@ var beverage = [
         "price": "3,00"
     },
     {
-        "product":"Crodino",
+        "product":"Crodino Maxi 17,5 cl",
         "price": "3,50"
     },
     {
@@ -345,6 +353,11 @@ var burger = [
         "ingridients": "cotto | fontina"
     },
     {
+        "product":"Roma",
+        "price": "6,50",
+        "ingridients": "cotto | mozzarella | insalata | pomodoro"
+    },
+    {
         "product":"Parigi",
         "price": "7,00",
         "ingridients": "crudo | brie | salsa al radicchio"
@@ -353,11 +366,6 @@ var burger = [
         "product":"Milano",
         "price": "7,00",
         "ingridients": "cotoletta | insalata | pomodoro"
-    },
-    {
-        "product":"Roma",
-        "price": "7,00",
-        "ingridients": "cotto | mozzarella | insalata | pomodoro"
     },
     {
         "product":"New York",
