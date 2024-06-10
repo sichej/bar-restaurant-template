@@ -101,11 +101,11 @@ var caff = [
     },
     {
         "product":"Crema Caffe piccola",
-        "price": "2,50"
+        "price": "2,70"
     },
     {
         "product":"Crema Caffe grande",
-        "price": "3,20"
+        "price": "3,50"
     },
     {
         "product":"Tea caldo classico",
@@ -170,12 +170,12 @@ var saltyBreakfast = [
     },
     {
         "product":"Focaccina",
-        "price": "2,20",
+        "price": "2,50",
         "ingridients":"cotto | crudo | salame | mortadella"
     },
     {
         "product":"Brioches salata",
-        "price": "2,70",
+        "price": "3,00",
         "ingridients":"cotto | crudo"
     },
     {
@@ -194,27 +194,27 @@ var saltyBreakfast = [
 var specCof = [
     {
         "product":"The Cups 2.0",
-        "price": "4,00",
+        "price": "4,50",
         "ingridients":"nutella | caffe | panna | cacao"
     },
     {
         "product":"Golosino",
-        "price": "4,00",
+        "price": "4,50",
         "ingridients":"crema al pistacchio | caffe | panna | granelle di pistacchio"
     },
     {
         "product":"Kinder Pilo",
-        "price": "4,00",
+        "price": "4,50",
         "ingridients":"crema al Kinder | caffe | panna | mini Kinder decoro"
     },
     {
         "product":"Galak 2.0",
-        "price": "4,00",
+        "price": "4,50",
         "ingridients":"cioccolato bianco | caffe | panna | cacao"
     },
     {
         "product":"Black Pilo",
-        "price": "4,00",
+        "price": "4,50",
         "ingridients":"cioccolato fondente | crema di limone | caffe | panna"
     }
 ]
@@ -286,7 +286,7 @@ var beverage = [
     },
     {
         "product":"Crodino",
-        "price": "3,00"
+        "price": "3,50"
     },
     {
         "product":"Sanbitter rosso",
@@ -346,62 +346,62 @@ var burger = [
     },
     {
         "product":"Parigi",
-        "price": "6,50",
+        "price": "7,00",
         "ingridients": "crudo | brie | salsa al radicchio"
     },
     {
         "product":"Milano",
-        "price": "6,50",
+        "price": "7,00",
         "ingridients": "cotoletta | insalata | pomodoro"
     },
     {
         "product":"Roma",
-        "price": "6,50",
+        "price": "7,00",
         "ingridients": "cotto | mozzarella | insalata | pomodoro"
     },
     {
         "product":"New York",
-        "price": "6,50",
+        "price": "7,00",
         "ingridients": "bresaola | patate alla paprika | fontina | salsa tartara"
     },
     {
         "product":"Città del Messico",
-        "price": "6,50",
+        "price": "7,00",
         "ingridients": "salame di Felino | scamorza | salsa The Cups"
     },
     {
         "product":"Bogotà",
-        "price": "6,50",
+        "price": "7,00",
         "ingridients": "zucchine grigliate | melanzane grigliate | fontina | tonno"
     },
     {
         "product":"Budapest",
-        "price": "6,50",
+        "price": "7,00",
         "ingridients": "crudo | patate al forno | scamorza | salsa al radicchio"
     },
     {
         "product":"Mosca",
-        "price": "6,50",
+        "price": "7,00",
         "ingridients": "speck | rucola | parmigiano | salsa capricciosa"
     },
     {
         "product":"Pechino",
-        "price": "6,50",
+        "price": "7,00",
         "ingridients": "tonno | mozzarella | insalata | pomodoro"
     },
     {
         "product":"Dakota",
-        "price": "7,50",
+        "price": "8,50",
         "ingridients": "pesto di cavallo | fontina | tabasco | salsa capricciosa"
     },
     {
         "product":"Dublino",
-        "price": "7,50",
+        "price": "8,50",
         "ingridients": "pesto di cavallo | zucchine grigliate | salsa tartara"
     },
     {
         "product":"Tokyo",
-        "price": "7,50",
+        "price": "8,50",
         "ingridients": "pesto di cavallo | brie | cipolle carammellate | salsa al radicchio"
     }
 ]
@@ -414,7 +414,7 @@ var hamburger = [
     },
     {
         "product":"Dallas Burger",
-        "price": "10,00",
+        "price": "12,00",
         "ingridients": "panel al carbone | pulled pork | parmigiano fuso | salsa BBQ"
     },
     {
@@ -442,7 +442,7 @@ var pinsa = [
     },
     {
         "product":"Pinsa Farcita",
-        "price": "8,00",
+        "price": "8,50",
         "ingridients": "base | 3 ingredienti a scelta"
     },
     {
@@ -517,32 +517,32 @@ var primi = [
 var dishes = [
     {
         "product":"Nairobi",
-        "price": "9,00",
+        "price": "10,00",
         "ingridients": "roastbeef | scaglie di parmigino | rucola"
     },
     {
         "product":"Londra",
-        "price": "9,00",
+        "price": "10,50",
         "ingridients": "pesto di cavallo crudo o scottato | contorno a scelta"
     },
     {
         "product":"Madrid",
-        "price": "9,00",
+        "price": "10,00",
         "ingridients": "cotoletta milanese | contorno a scelta"
     },
     {
         "product":"Toronto",
-        "price": "9,00",
+        "price": "10,00",
         "ingridients": "crudo | pomodoro pachini | mozzarella di bufala"
     },
     {
         "product":"Santiago",
-        "price": "9,00",
+        "price": "10,00",
         "ingridients": "fesa di tacchino | alici rizzoli | verdure grigliate"
     },
     {
         "product":"Ginevra",
-        "price": "9,00",
+        "price": "10,00",
         "ingridients": "bresaola | patate al forno | rucola | glassa di aceto balsamico"
     }
 ]
@@ -550,27 +550,27 @@ var dishes = [
 var salad = [
     {
         "product":"Miami",
-        "price": "9,00",
+        "price": "10,00",
         "ingridients": "insalata | rucola | radicchio | noci | pomodoro | fiocchi di patate alla paprica | salsa greca | pollo impanato"
     },
     {
         "product":"Rio",
-        "price": "9,00",
+        "price": "10,00",
         "ingridients": "insalata | radicchio | rucola | pomodoro | mais | tonno | scaglie di parmigiano | bufala"
     },
     {
         "product":"Valencia",
-        "price": "9,00",
+        "price": "10,00",
         "ingridients": "Insalata | radicchio | mozzarella | carciofi | cotto | pomodorini"
     },
     {
         "product":"Hawaii",
-        "price": "9,00",
+        "price": "10,00",
         "ingridients": "Insalata | radicchio | rucola | pistacchi | pomodorini | verdure grigliate | cipolline in aceto balsamico"
     },
     {
         "product":"Dubai",
-        "price": "9,00",
+        "price": "10,00",
         "ingridients": "Insalata | rucola | patate al forno | crudo | pomodorini | noci | salsa capricciosa"
     }
 ]
@@ -611,7 +611,7 @@ var beers = [
     {
         "product":"Weihnachtsbier Doppio Malto",
         "small": "3,00",
-        "medium": "4,50"
+        "medium": "5,00"
     },
     {
         "product":"Birra Ospite",
