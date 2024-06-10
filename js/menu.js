@@ -257,10 +257,6 @@ var beverage = [
         "price": "2,50"
     },
     {
-        "product":"Succo mela verde",
-        "price": "2,70"
-    },
-    {
         "product":"CocaCola",
         "price": "3,00"
     },
@@ -342,7 +338,11 @@ var juice = [
     {
         "product":"Arancia",
         "price": "2,70"
-    }
+    },
+    {
+        "product":"Mela verde",
+        "price": "2,70"
+    },
     
 ]
 
