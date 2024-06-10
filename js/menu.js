@@ -423,7 +423,7 @@ var hamburger = [
     {
         "product":"Dallas Burger",
         "price": "12,00",
-        "ingridients": "panel al carbone | pulled pork | parmigiano fuso | salsa BBQ"
+        "ingridients": "pane al carbone | pulled pork | parmigiano fuso | salsa BBQ"
     },
     {
         "product":"Double Cheeseburger",
