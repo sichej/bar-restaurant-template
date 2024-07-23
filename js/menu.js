@@ -420,11 +420,11 @@ var hamburger = [
         "price": "11,00",
         "ingridients": "hamburger | insalata | pomodoro | maionese"
     },
-    {
-        "product":"Dallas Burger",
-        "price": "12,00",
-        "ingridients": "pane al carbone | pulled pork | parmigiano fuso | salsa BBQ"
-    },
+    // {
+    //     "product":"Dallas Burger",
+    //     "price": "12,00",
+    //     "ingridients": "pane al carbone | pulled pork | parmigiano fuso | salsa BBQ"
+    // },
     {
         "product":"Double Cheeseburger",
         "price": "12,00",
@@ -435,11 +435,11 @@ var hamburger = [
         "price": "13,00",
         "ingridients": "hamburger | brie | rucola | cipolle caramellate | salsa tartara"
     },
-    {
-        "product":"Black Sea Burger",
-        "price": "13,00",
-        "ingridients": "pane al carbone | salmone cotto 150g | rucola | guacamole | pomodoro "
-    }
+    // {
+    //     "product":"Black Sea Burger",
+    //     "price": "13,00",
+    //     "ingridients": "pane al carbone | salmone cotto 150g | rucola | guacamole | pomodoro "
+    // }
 ]
 
 var pinsa = [
